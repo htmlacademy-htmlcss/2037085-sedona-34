@@ -37,6 +37,33 @@
         </nav>>
         </header>
 
+        <main class="catalog">
+         <h1 class="page name">Гостиницы Седоны</h1>  
+        <form action="https://echo.htmlacademy.ru/" method="post">
+            <fieldset>
+              <legend>Инфраструктура:</legend>
+              <input id="swimming-pool" type="checkbox" name="swimming-pool" checked>
+              <label for="swimming-pool">Бассейн</label>
+              <input id="parking-space" type="checkbox" name="parking-space" checked>
+              <label for="parking-space">Парковка</label>
+              <input id="wi-fi" type="checkbox" name="wi-fi">
+              <label for="wi-fi">Wi-Fi</label>
+            </fieldset>
+            <fieldset>
+              <legend>Тип жилья:</legend>
+              <input id="Hotel" type="radio" checked name="type-of-house">
+              <label for="Hotel">Гостиница</label>
+              <input id="Motel" type="radio" name="type-of-house">
+              <label for="Motel">Мотель</label>
+              <input id="Apartments" type="radio" name="type-of-house">
+              <label for="Apartments">Апартаменты</label>
+            </fieldset>
+            <input type="submit" name="apply-filter" value="Применить">
+            <button type="reset" name="clean-filter" value="Сбросить"></button>       
+            <!--Стоимость, ₽: 
+            Вставить сюда ползунок потом-->
+          </form> 
+
   </body>
   
   <footer class="page-footer">
