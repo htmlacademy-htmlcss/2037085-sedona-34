@@ -48,3 +48,8 @@ body {
   text-decoration: none;
 }
 
+.index-background {
+  background-image: url("images/decorative-elements/index-background");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
