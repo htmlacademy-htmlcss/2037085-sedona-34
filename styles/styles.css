@@ -36,4 +36,7 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 24px; /*Выбрала чаще всего встречающийся размер текста и межстрочный интервал*/
   line-height: 28px; /*Выбрала чаще всего встречающийся размер текста и межстрочный интервал*/
+  color:black;
+  background-color: white;
+  text-align: center;
 }
