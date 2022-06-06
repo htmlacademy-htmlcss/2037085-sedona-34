@@ -57,3 +57,15 @@ body {
 .advantages-list {
 text-align: center;
 }
+
+.advantages-title-blue {
+  background-color: #82B3D3;
+  }
+
+.dvantages-title-white {
+  background-color:#f0f6fa;
+}
+
+.dvantages-title-white-blue {
+  background-color: #e6f0f6;
+}
