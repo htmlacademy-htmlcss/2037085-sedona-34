@@ -49,7 +49,7 @@ body {
 }
 
 .index-background {
-  background-image: url("images/decorative-elements/index-background");
+  background-image: url("images/decorative-elements/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
@@ -68,4 +68,10 @@ text-align: center;
 
 .background-white {
   background-color: #f0f6fa;
+}
+
+.blurred-mountains {
+  background-image: url("images/decorative-elements/blurred-mountains.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
