@@ -108,5 +108,9 @@ text-align: center;
   line-height: 78px;
 }
 
-
+.bread-crumbs {
+  font-size: 18px;
+  line-height: 21px;
+  color:white;
+}
 
