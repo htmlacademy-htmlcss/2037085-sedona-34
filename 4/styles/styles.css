@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/pt-sans-regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/pt-sans-bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+/* Если в макете не было наклонного шрифта, его сюда нужно подключать было "на потом"? */
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("fonts/pt-sans-italic.woff2") format("woff2");
+  font-display: swap;
+}
+
+/* Если в макете не было полужирного наклонного шрифта, его сюда нужно подключать было "на потом"? */
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: url("fonts/pt-sans-bold-italic.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px; /*Выбрала чаще всего встречающийся размер текста и межстрочный интервал*/
+  line-height: 28px; /*Выбрала чаще всего встречающийся размер текста и межстрочный интервал*/
+  color:black;
+  background-color: white;
+}
+
+.button {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navigation-link {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+}
+
+.index-background {
+  background-image: url("images/decorative-elements/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.advantages-list {
+text-align: center;
+}
+
+.background-blue {
+  background-color: #82B3D3;
+  }
+
+.background-white-blue {
+  background-color:#e6f0f6;
+}
+
+.background-white {
+  background-color: #f0f6fa;
+}
+
+.blurred-mountains {
+  background-image: url("images/decorative-elements/blurred-mountains.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.footer-contacts-phone {
+  font-style: Regular;
+  font-size: 40px;
+  line-height: 40px;
+  color:black;
+}
+
