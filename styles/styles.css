@@ -58,14 +58,14 @@ body {
 text-align: center;
 }
 
-.advantages-title-blue {
+.background-blue {
   background-color: #82B3D3;
   }
 
-.dvantages-title-white {
-  background-color:#f0f6fa;
+.background-white-blue {
+  background-color:#e6f0f6;
 }
 
-.dvantages-title-white-blue {
-  background-color: #e6f0f6;
+.background-white {
+  background-color: #f0f6fa;
 }
