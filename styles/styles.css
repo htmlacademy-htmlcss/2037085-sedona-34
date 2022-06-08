@@ -14,24 +14,6 @@
   font-display: swap;
 }
 
-/* Если в макете не было наклонного шрифта, его сюда нужно подключать было "на потом"? */
-@font-face {
-  font-family: "PT Sans";
-  font-style: italic;
-  font-weight: 400;
-  src: url("fonts/pt-sans-italic.woff2") format("woff2");
-  font-display: swap;
-}
-
-/* Если в макете не было полужирного наклонного шрифта, его сюда нужно подключать было "на потом"? */
-@font-face {
-  font-family: "PT Sans";
-  font-style: italic;
-  font-weight: 700;
-  src: url("fonts/pt-sans-bold-italic.woff2") format("woff2");
-  font-display: swap;
-}
-
 body {
   font-family: "PT Sans", sans-serif;
   font-size: 24px; /*Выбрала чаще всего встречающийся размер текста и межстрочный интервал*/
