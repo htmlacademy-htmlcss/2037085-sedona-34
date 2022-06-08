@@ -94,3 +94,40 @@ text-align: center;
   color:black;
 }
 
+/*Страница каталога*/
+
+/* А вот эти фоновые картинки, которые должны быть растянуты, как-то можно объединить, чтобы только одну запись с одинакомыми параметрами для них создать? */
+.blurred-mountains-under-the-filter {
+  background-image: url("images/decorative-elements/blurred-mountains.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.page-name {
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.bread-crumbs {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.hotel-found {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.hotel-title {hotel-title
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.hotel-cards {
+  text-align: left;
+}
+
+.hotel-title {
+  font-weight: 700;
+  color: black;
+}
