@@ -84,9 +84,8 @@ text-align: center;
 
 /*Страница каталога*/
 
-/* А вот эти фоновые картинки, которые должны быть растянуты, как-то можно объединить, чтобы только одну запись с одинакомыми параметрами для них создать? */
-.blurred-mountains-under-the-filter {
-  background-image: url("images/decorative-elements/blurred-mountains.jpg");
+.mountain-background {
+  background-image: url("images/decorative-elements/mountain-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
