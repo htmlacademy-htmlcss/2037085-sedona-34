@@ -63,6 +63,14 @@ text-align: center;
   color:black;
 }
 
+.main-index {
+  color: #ffffff;
+  background-color: blue; /* Преобладющий цвет фона*/
+  background-image: url("images/decorative-elements/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
 /*Страница каталога*/
 
 .mountain-background {
