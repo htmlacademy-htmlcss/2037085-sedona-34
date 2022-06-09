@@ -64,7 +64,7 @@ text-align: center;
 }
 
 .main-index {
-  background-image: url("images/decorative-elements/index-background.jpg");
+  background-image: url("/images/decorative-elements/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
