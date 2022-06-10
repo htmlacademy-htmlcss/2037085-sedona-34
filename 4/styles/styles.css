@@ -2,7 +2,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/pt-sans-regular.woff2") format("woff2");
+  src: url("/fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -10,7 +10,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/pt-sans-bold.woff2") format("woff2");
+  src: url("/fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -63,13 +63,13 @@ text-align: center;
   color:black;
 }
 
-/*Страница каталога*/
-
-.mountain-background {
-  background-image: url("images/decorative-elements/mountain-background.jpg");
+.main-index {
+  background-image: url("/images/decorative-elements/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
+
+/*Страница каталога*/
 
 .page-name {
   font-size: 60px;
