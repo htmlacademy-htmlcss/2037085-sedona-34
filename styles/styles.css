@@ -115,6 +115,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 0 40px;
+  width: 800px;
   /*Если данные картинки подключены через разметку уже, сюда требуется добавить url?*/
 }
 
