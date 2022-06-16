@@ -44,37 +44,38 @@
       </nav>>
     </header>
 
-    <main class="catalog">
-      <h1 class="page-name">Гостиницы Седоны</h1>
-      <form class="newsletter-subscription-form" action="https://echo.htmlacademy.ru/" method="post">
-      <h2 class="visually-hidden">Фильтры для выбора гостиницы</h2>
-      <div class="bread-crumbs">
-        <fieldset>
-          <legend>Инфраструктура:</legend>
-          <input id="swimming-pool" type="checkbox" name="swimming-pool" checked>
-          <label for="swimming-pool">Бассейн</label>
-          <input id="parking-space" type="checkbox" name="parking-space" checked>
-          <label for="parking-space">Парковка</label>
-          <input id="wi-fi" type="checkbox" name="wi-fi">
-          <label for="wi-fi">Wi-Fi</label>
-        </fieldset>
-        <fieldset>
-          <legend>Тип жилья:</legend>
-          <input id="Hotel" type="radio" checked name="type-of-house">
-          <label for="Hotel">Гостиница</label>
-          <input id="Motel" type="radio" name="type-of-house">
-          <label for="Motel">Мотель</label>
-          <input id="Apartments" type="radio" name="type-of-house">
-          <label for="Apartments">Апартаменты</label>
-        </fieldset>
-      </div>
-        <button class="fb-icon" type="button">
-          <span class="visually-hidden">Применить.</span>
-        </button>
-        <button class="fb-icon" type="button">
-          <span class="visually-hidden">Сбросить.</span>
-        </button>
-      </form>
+    <main class="catalog main-container">
+      <div class="page-container">
+        <h1 class="page-name">Гостиницы Седоны</h1>
+        <form class="newsletter-subscription-form" action="https://echo.htmlacademy.ru/" method="post">
+          <h2 class="visually-hidden">Фильтры для выбора гостиницы</h2>
+            <div class="bread-crumbs">
+              <fieldset>
+                <legend>Инфраструктура:</legend>
+                <input id="swimming-pool" type="checkbox" name="swimming-pool" checked>
+                <label for="swimming-pool">Бассейн</label>
+                <input id="parking-space" type="checkbox" name="parking-space" checked>
+                <label for="parking-space">Парковка</label>
+                <input id="wi-fi" type="checkbox" name="wi-fi">
+                <label for="wi-fi">Wi-Fi</label>
+             </fieldset>
+             <fieldset>
+               <legend>Тип жилья:</legend>
+               <input id="Hotel" type="radio" checked name="type-of-house">
+               <label for="Hotel">Гостиница</label>
+               <input id="Motel" type="radio" name="type-of-house">
+               <label for="Motel">Мотель</label>
+               <input id="Apartments" type="radio" name="type-of-house">
+               <label for="Apartments">Апартаменты</label>
+             </fieldset>
+           </div>
+              <button class="fb-icon" type="button">
+                <span class="visually-hidden">Применить.</span>
+              </button>
+              <button class="fb-icon" type="button">
+                <span class="visually-hidden">Сбросить.</span>
+              </button>
+         </form>
 
       <section class="sorting-hotels">
         <h2 class="visually-hidden">Сортировка результатов поиска</h2>
@@ -203,6 +204,7 @@
             <input type="text" name="Ваш e-mail">
             <button class="button" type="submit">Подписаться</button>
           </form>
+        </div>
     </main>
 
     <footer class="page-footer">
