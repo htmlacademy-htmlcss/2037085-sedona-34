@@ -119,6 +119,12 @@ body {
   /*Если данные картинки подключены через разметку уже, сюда требуется добавить url?*/
 }
 
+.page-footer-container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .footer-contacts-phone {
   font-size: 40px;
   line-height: 40px;
