@@ -93,16 +93,22 @@ body {
   text-align: center;
 }
 
+/*Блок с преимуществами. Цвет фона - голубой*/
 .background-blue {
   background-color: #82B3D3;
+  width: 400px;
   }
 
+  /*Блок с преимуществами. Цвет фона - бело-голубой*/
 .background-white-blue {
   background-color:#e6f0f6;
+  width: 400px;
 }
 
+/*Блок с преимуществами. Цвет фона - белый*/
 .background-white {
   background-color: #f0f6fa;
+  width: 400px;
 }
 
 .footer-contacts-phone {
