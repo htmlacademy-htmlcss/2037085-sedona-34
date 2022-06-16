@@ -125,11 +125,25 @@ body {
   margin: 0 auto;
 }
 
+.social-network{
+  display: flex;
+  width: 200px; /*Оставляю запас на ещё одну иконку соцсети*/
+  margin-right: 227px; /* 1200- (115+331+200)=1200-646=554 - осталось на два отступа. Значит каждый отступ = 554/2=227 пикселей*/
+}
+
+.logo-html-academy{
+  display: flex;
+  width: 115px;
+  margin-left: 227px;
+}
+
 .footer-contacts-phone {
   font-size: 40px;
   line-height: 40px;
   color:black;
+  width: 331px;
 }
+/*На этом оформление крупных сеток главной страницы окончено*/
 
 .main-index {
   background-image: url("../images/decorative-elements/index-background.jpg");
