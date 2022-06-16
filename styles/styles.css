@@ -111,6 +111,13 @@ body {
   width: 400px;
 }
 
+.advantages-images {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  /*Если данные картинки подключены через разметку уже, сюда требуется добавить url?*/
+}
+
 .footer-contacts-phone {
   font-size: 40px;
   line-height: 40px;
