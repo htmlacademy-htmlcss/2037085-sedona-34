@@ -75,6 +75,16 @@ body {
   margin: 0 auto;
 }
 
+.slogan {
+  display: block;
+  margin: 0 auto;
+}
+
+.invitation {
+  display: block;
+  margin: 0 auto;
+}
+
 .advantages-list {
 text-align: center;
 }
