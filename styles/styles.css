@@ -52,6 +52,7 @@ body {
 .main-container {
   flex-grow: 1;
 }
+/*На этом была завершена разметка "Липкого футера"*/
 
 .advantages-list {
 text-align: center;
