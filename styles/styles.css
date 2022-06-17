@@ -169,6 +169,17 @@ body {
   line-height: 21px;
 }
 
+.catalog-filter{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 35px 70px 70px;
+width: 1200px;
+background-image: url("../images/decorative-elements/mountain-background.jpg");
+background-size: 100% auto;
+background-repeat: no-repeat;
+}
+
 .hotel-found {
   font-size: 30px;
   line-height: 36px;
