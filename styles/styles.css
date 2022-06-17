@@ -99,30 +99,94 @@ body {
   text-align: center;
 }
 
-/*Блок с преимуществами. Цвет фона - голубой*/
-.background-blue {
-  background-color: #82B3D3;
-  width: 400px;
-  }
-
-  /*Блок с преимуществами. Цвет фона - бело-голубой*/
-.background-white-blue {
-  background-color:#e6f0f6;
-  width: 400px;
-}
-
-/*Блок с преимуществами. Цвет фона - белый*/
-.background-white {
-  background-color: #f0f6fa;
-  width: 400px;
-}
-
 .advantages-images {
   display: flex;
   justify-content: space-between;
   padding: 0 40px;
   width: 800px;
   /*Если данные картинки подключены через разметку уже, сюда требуется добавить url?*/
+}
+
+.top-row{
+  display: flex;
+  width: 1200px;
+  padding: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  justify-content: center;
+}
+
+.real-town{
+  background-color: #82B3D3;
+  width: 400px;
+  color: white;
+  padding: 0;
+}
+
+.middle-row{
+  display: flex;
+  width: 1200px;
+  padding: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.housing{
+  background-color:#e6f0fa;
+  width: 400px;
+}
+
+.meal{
+  background-color: #FFFFFF;
+  width: 400px;
+}
+
+.souvenirs{
+  background-color:#e6f0fa;
+  width: 400px;
+}
+
+.penultimate-row{
+  display: flex;
+  width: 1200px;
+  padding: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.devils-bridge{
+  background-color: #82B3D3;
+  width: 400px;
+  color: white;
+}
+
+.bottom-row{
+  display: flex;
+  width: 1200px;
+  padding: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.small-area{
+  background-color: #e6f0fa;
+  width: 400px;
+}
+
+.beautiful-road{
+  background-color: #e6f0f6;
+  width: 400px;
+}
+
+.few-tourists{
+  background-color:#e6f0fa;
+  width: 400px;
 }
 
 .page-footer-container {
