@@ -30,6 +30,11 @@ body {
   background-color: white;
 }
 
+.content-centering{
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .button {
   font-family: inherit;
   font-size: 20px;
