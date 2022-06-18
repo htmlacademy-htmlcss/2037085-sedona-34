@@ -107,7 +107,7 @@ body {
 
 .advantages-list {
   display: flex;
-  flex-basis: 1200 px;
+  width: 1200px;
   justify-content: space-between;
   margin: 0;
   padding: 0;
