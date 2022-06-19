@@ -228,6 +228,11 @@ body {
 }
 
 /*Страница каталога*/
+.blurred-mountains{
+  background-image: url("../images/decorative-elements/blurred-mountains.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
 
 .page-name {
   font-size: 60px;
