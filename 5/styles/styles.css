@@ -116,7 +116,6 @@ body {
 }
 
 .advantages-images {
-  display: flex;
   padding: 0;
   width: 800px;
   margin: 0;
@@ -126,7 +125,7 @@ body {
 .real-town{
   display: flex;
   background-color: #82B3D3;
-  min-width: 400px;
+  width: 400px;
   color: white;
   padding: 0;
   margin: 0;
@@ -159,7 +158,7 @@ body {
 .devils-bridge{
   display: flex;
   background-color: #82B3D3;
-  min-width: 400px;
+  width: 400px;
   color: white;
   padding: 0;
   margin: 0;
@@ -228,6 +227,11 @@ body {
 }
 
 /*Страница каталога*/
+.blurred-mountains{
+  background-image: url("../images/decorative-elements/blurred-mountains.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
 
 .page-name {
   font-size: 60px;
