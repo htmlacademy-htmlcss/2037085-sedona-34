@@ -139,12 +139,20 @@ height: 29px;
 width: 256px;
 }
 
-.advantages-text{
+.advantages-text-capital{
+  display: block;
+  margin: 0 auto;
+  margin-top: 63px;
+  margin-bottom: 31px;
+  text-transform: uppercase;
   text-align: center;
 }
 
-.advantages-text-capital{
-  text-transform: uppercase;
+.advantages-text{
+  display: block;
+  margin: 0 auto;
+  margin-top: 0;
+  padding-bottom: 90px;
   text-align: center;
 }
 
