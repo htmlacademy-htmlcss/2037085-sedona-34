@@ -14,12 +14,25 @@
   font-display: swap;
 }
 
+html{
+  height: 100%;
+}
+
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 24px; /*Выбрала чаще всего встречающийся размер текста и межстрочный интервал*/
   line-height: 28px; /*Выбрала чаще всего встречающийся размер текста и межстрочный интервал*/
   color:black;
   background-color: white;
+}
+
+.content-centering{
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .button {
@@ -33,6 +46,23 @@ body {
   text-transform: uppercase;
 }
 
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.site-navigation { /*Список ссылок в навигации*/
+  margin: 0;
+  padding: 0;
+  max-width: 390px;
+}
+
+.navigation-user {
+  max-width: 264px;
+  margin-left: auto;
+}
+
 .navigation-link {
   font-size: 20px;
   line-height: 26px;
@@ -41,35 +71,167 @@ body {
   text-decoration: none;
 }
 
-.advantages-list {
-text-align: center;
+.logo-sedona{   /*Логотип в навигации*/
+  width: 139px;
+  margin-right: 70px;
 }
 
-.background-blue {
+.main-container {
+  flex-grow: 1;
+}
+/*На этом была завершена разметка "Липкого футера"*/
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.slogan {
+  display: block;
+  margin: 0 auto;
+}
+
+.invitation {
+  display: block;
+  margin: 0 auto;
+}
+
+.advantages-text{
+  text-align: center;
+}
+
+.advantages-text-capital{
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.advantages-list {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.advantages-images {
+  padding: 0;
+  width: 800px;
+  margin: 0;
+    /*Если данные картинки подключены через разметку уже, сюда требуется добавить url?*/
+}
+
+.real-town{
+  display: flex;
   background-color: #82B3D3;
+  width: 400px;
+  color: white;
+  padding: 0;
+  margin: 0;
   }
 
-.background-white-blue {
-  background-color:#e6f0f6;
+.housing{
+  display: flex;
+  background-color:#e6f0fa;
+  width: 400px;
+  padding: 0;
+  margin: 0;
+  }
+
+.meal{
+  display: flex;
+  background-color: #FFFFFF;
+  width: 400px;
+  padding: 0;
+  margin: 0;
 }
 
-.background-white {
-  background-color: #f0f6fa;
+.souvenirs{
+  display: flex;
+  background-color:#e6f0fa;
+  width: 400px;
+  padding: 0;
+  margin: 0;
+}
+
+.devils-bridge{
+  display: flex;
+  background-color: #82B3D3;
+  width: 400px;
+  color: white;
+  padding: 0;
+  margin: 0;
+  }
+
+.small-area{
+  display: flex;
+  background-color: #e6f0fa;
+  width: 400px;
+  padding: 0;
+  margin: 0;
+  }
+
+.beautiful-road{
+  display: flex;
+  background-color: #e6f0f6;
+  width: 400px;
+  padding: 0;
+  margin: 0;
+}
+
+.few-tourists{
+  display: flex;
+  background-color:#e6f0fa;
+  width: 400px;
+  padding: 0;
+  margin: 0;
+}
+
+.page-footer-container{
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.social-network{
+  display: flex;
+  width: 200px; /*Оставляю запас на ещё одну иконку соцсети*/
+  margin-right: 227px; /* 1200- (115+331+200)=1200-646=554 - осталось на два отступа. Значит каждый отступ = 554/2=227 пикселей*/
+}
+
+.logo-html-academy{
+  display: flex;
+  width: 115px;
+  margin-left: 227px;
 }
 
 .footer-contacts-phone {
   font-size: 40px;
   line-height: 40px;
   color:black;
+  width: 331px;
 }
 
-.main-index {
+.blurred-mountains{
+  background-image: url("../images/decorative-elements/blurred-mountains.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+/*На этом оформление крупных сеток главной страницы окончено*/
+
+.index-background {
   background-image: url("../images/decorative-elements/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 
 /*Страница каталога*/
+.blurred-mountains{
+  background-image: url("../images/decorative-elements/blurred-mountains.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
 
 .page-name {
   font-size: 60px;
@@ -79,6 +241,17 @@ text-align: center;
 .bread-crumbs {
   font-size: 18px;
   line-height: 21px;
+}
+
+.catalog-filter{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 35px 70px 70px;
+width: 1200px;
+background-image: url("../images/decorative-elements/mountain-background.jpg");
+background-size: 100% auto;
+background-repeat: no-repeat;
 }
 
 .hotel-found {
@@ -92,6 +265,9 @@ text-align: center;
 }
 
 .hotel-cards {
+  margin: 0;
+  padding: 0;
+  width: 340px;
   text-align: left;
 }
 
