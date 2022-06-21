@@ -126,17 +126,17 @@ body {
 }
 
 .welkome{
-padding-top: 52px; /*По бокам ничего не указываю у накладывающихся картинок, так как они вырорвнены по центру margin: 0 auto;*/
-margin-bottom: 0;
-height: 45px;
-width: 188px;
+ padding-top: 52px; /*По бокам ничего не указываю у накладывающихся картинок, так как они вырорвнены по центру margin: 0 auto;*/
+ margin-bottom: 0;
+ height: 45px;
+ width: 188px;
 }
 
 .to-the-gorgeous{
-margin-top: 0;
-margin-bottom: 64px;   /*190-52-45-29=64*/
-height: 29px;
-width: 256px;
+ margin-top: 0;
+ margin-bottom: 64px;   /*190-52-45-29=64*/
+ height: 29px;
+ width: 256px;
 }
 
 .advantages-text-capital{
@@ -283,37 +283,12 @@ width: 256px;
   margin-bottom: 92px;
   }
 
-.page-footer-container{
-  display: flex;
-  width: 1200px;
-  margin: 0 auto;
-}
-
-.social-network{
-  display: flex;
-  width: 200px; /*Оставляю запас на ещё одну иконку соцсети*/
-  margin-right: 227px; /* 1200- (115+331+200)=1200-646=554 - осталось на два отступа. Значит каждый отступ = 554/2=227 пикселей*/
-}
-
-.logo-html-academy{
-  display: flex;
-  width: 115px;
-  margin-left: 227px;
-}
-
-.footer-contacts-phone {
-  font-size: 40px;
-  line-height: 40px;
-  color:black;
-  width: 331px;
-}
-
 .blurred-mountains{
   background-image: url("../images/decorative-elements/blurred-mountains.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
-}
-/*На этом оформление крупных сеток главной страницы окончено*/
+  }
+
 
 .index-background {
   background-image: url("../images/decorative-elements/index-background.jpg");
@@ -321,7 +296,63 @@ width: 256px;
   background-repeat: no-repeat;
   width:1200px;
   height: 487px;
+  }
+
+.page-footer-container{
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
 }
+
+.footer-social {
+
+}
+
+.footer-social-list {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 143px;
+  margin: 0;
+  padding: 0;
+  margin-top: 45px;
+  margin-bottom: 35px;
+  margin-left: 70px;
+  list-style-type: none;
+}
+
+.footer-social-item{
+  width: 47px;
+  height: 40px;
+}
+
+.logo-html-academy button-link{
+  display: flex;
+  width: 115px;
+  height: 33px;
+  margin-top: 49;
+  margin-right: 70;
+  margin-bottom: 39;
+  margin-left: 235px;
+}
+
+.button-link-html{
+  display: flex;
+  width: 115px;
+  height: 33px;
+  padding: 38px;
+
+}
+
+.footer-contacts-phone {
+  font-size: 40px;
+  line-height: 40px;
+  color:black;
+  width: 331px;
+  padding-top: 45px;
+  padding-bottom: 35px;
+  margin-right: 235px;
+}
+
 
 /*Страница каталога*/
 .blurred-mountains{
