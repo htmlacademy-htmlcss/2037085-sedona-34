@@ -246,6 +246,8 @@ body {
   background-image: url("../images/decorative-elements/index-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  width:1200px;
+  height: 487px;
 }
 
 /*Страница каталога*/
