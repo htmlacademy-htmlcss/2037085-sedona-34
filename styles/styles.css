@@ -77,6 +77,11 @@ body {
   margin-left: auto;
 }
 
+.navigation-user .site-navigation {
+  min-width: 20px;
+  min-height: 26px;
+}
+
 .navigation-link {
   display: block;
   padding: 20px 19px;
