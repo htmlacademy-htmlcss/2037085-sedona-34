@@ -113,9 +113,30 @@ body {
   margin: 0 auto;
 }
 
+.sedona-white{
+  margin-top: 0;
+  margin-bottom: 84px;
+  height: 213px;
+  width: 457px;
+}
+
 .invitation {
   display: block;
   margin: 0 auto;
+}
+
+.welkome{
+padding-top: 52px; /*По бокам ничего не указываю у накладывающихся картинок, так как они вырорвнены по центру margin: 0 auto;*/
+margin-bottom: 0;
+height: 45px;
+width: 188px;
+}
+
+.to-the-gorgeous{
+margin-top: 0;
+margin-bottom: 64px;   /*190-52-45-29=64*/
+height: 29px;
+width: 256px;
 }
 
 .advantages-text{
