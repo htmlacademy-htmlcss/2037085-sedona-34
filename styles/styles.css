@@ -311,7 +311,6 @@ body {
   margin: 0;
   padding: 0;
   margin-top: 45px;
-  margin-right: auto;
   margin-bottom: 35px;
   margin-left: 30px;   /*Так как     padding-inline-start: 40px;*/
   list-style-type: none;
@@ -329,7 +328,6 @@ body {
   margin-top: 49px;
   margin-right: 70px;
   margin-bottom: 39px;
-  margin-left: 200px;
 }
 
 .button-link-html{
