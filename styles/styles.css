@@ -310,6 +310,7 @@ body {
   margin-top: 45px;
   margin-bottom: 35px;
   padding-left: 30px;   /*Так как     padding-inline-start: 40px;*/
+  margin-right: 200px;  /*Чтобы ущё на одну иконку места хватило. Они по 35 пикселей*/
   list-style-type: none;
 }
 
