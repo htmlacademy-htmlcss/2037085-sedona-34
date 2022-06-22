@@ -1,0 +1,433 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+html{
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px; /*Выбрала чаще всего встречающийся размер текста и межстрочный интервал*/
+  line-height: 28px; /*Выбрала чаще всего встречающийся размер текста и межстрочный интервал*/
+  color:black;
+  background-color: white;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.content-centering{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.button {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.site-navigation { /*Список ссылок в навигации*/
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  max-width: 390px;
+  list-style-type: none;
+}
+
+.navigation-user {
+  max-width: 264px;
+  margin-left: auto;
+}
+
+.navigation-user .site-navigation {
+  min-width: 20px;
+  min-height: 26px;
+}
+
+.navigation-link {
+  display: block;
+  padding: 20px 19px;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+.logo-sedona{   /*Логотип в навигации*/
+  width: 139px;
+  margin-right: 70px;
+}
+
+.main-container {
+  flex-grow: 1;
+}
+/*На этом была завершена разметка "Липкого футера"*/
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.slogan {
+  display: block;
+  margin: 0 auto;
+}
+
+.sedona-white{
+  margin-top: 0;
+  margin-bottom: 84px;
+  height: 213px;
+  width: 457px;
+}
+
+.invitation {
+  display: block;
+  margin: 0 auto;
+}
+
+.welkome{
+ padding-top: 52px; /*По бокам ничего не указываю у накладывающихся картинок, так как они вырорвнены по центру margin: 0 auto;*/
+ margin-bottom: 0;
+ height: 45px;
+ width: 188px;
+}
+
+.to-the-gorgeous{
+ margin-top: 0;
+ margin-bottom: 64px;   /*190-52-45-29=64*/
+ height: 29px;
+ width: 256px;
+}
+
+.advantages-text-capital{
+  display: block;
+  margin: 0 auto;
+  margin-top: 63px;
+  margin-bottom: 31px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.advantages-text{
+  display: block;
+  margin: 0 auto;
+  margin-top: 0;
+  padding-bottom: 90px;
+  text-align: center;
+}
+
+.advantages-list {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.advantages-images {
+  padding: 0;
+  width: 800px;
+  height: 384px;
+  margin: 0;
+  list-style-type: none;
+}
+
+.real-town{
+  display: flex;
+  background-color: #82B3D3;
+  width: 400px;
+  min-height: 384px;
+  color: white;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  }
+
+.housing{
+  display: flex;
+  background-color:#e6f0fa;
+  width: 400px;
+  min-height: 384px;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  }
+
+.meal{
+  display: flex;
+  background-color: #FFFFFF;
+  width: 400px;
+  min-height: 384px;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.souvenirs{
+  display: flex;
+  background-color:#e6f0fa;
+  width: 400px;
+  min-height: 384px;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.devils-bridge{
+  display: flex;
+  background-color: #82B3D3;
+  width: 400px;
+  min-height: 384px;
+  color: white;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  }
+
+.small-area{
+  display: flex;
+  background-color: #e6f0fa;
+  width: 400px;
+  min-height: 384px;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+  }
+
+.beautiful-road{
+  display: flex;
+  background-color: #e6f0f6;
+  width: 400px;
+  min-height: 384px;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.few-tourists{
+  display: flex;
+  background-color:#e6f0fa;
+  width: 400px;
+  min-height: 384px;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.content-of-advantages{  /*Общие свойства текста внутри дочерних флексов*/
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.advantages-title{
+  padding-top: 92px;
+  text-transform: uppercase;
+ }
+
+.advantage-number{
+  font-size: 18px;
+  line-height: 21px;
+  margin: 30px;
+  padding: 0;
+ }
+
+.advantages-description{
+  font-size: 18px;
+  line-height: 21px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 92px;
+  }
+
+.blurred-mountains{
+  background-image: url("../images/decorative-elements/blurred-mountains.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  }
+
+
+.index-background {
+  background-image: url("../images/decorative-elements/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width:1200px;
+  height: 487px;
+  }
+
+.page-footer-container{
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-social-list {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 143px;
+  margin: 0;
+  padding: 0;
+  margin-top: 45px;
+  margin-bottom: 35px;
+  margin-left: 30px;   /*Так как     padding-inline-start: 40px;*/
+  list-style-type: none;
+}
+
+.footer-social-item{
+  width: 47px;
+  height: 40px;
+}
+
+.logo-html-academy .button-link-html{
+  display: flex;
+  width: 115px;
+  height: 33px;
+  margin-top: 49px;
+  margin-right: 70px;
+  margin-bottom: 39px;
+}
+
+.button-link-html{
+  display: flex;
+  width: 115px;
+  height: 33px;
+  padding: 38px;
+  margin: 0 auto;
+}
+
+.footer-contacts-phone {
+  font-size: 40px;
+  line-height: 40px;
+  color:black;
+  width: 331px;
+  height: 40px;
+  padding-top: 45px;
+  padding-bottom: 35px;
+}
+
+
+/*Страница каталога*/
+.blurred-mountains{
+  background-image: url("../images/decorative-elements/blurred-mountains.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.page-name {
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.bread-crumbs {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.catalog-filter{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 35px 70px 70px;
+width: 1200px;
+background-image: url("../images/decorative-elements/mountain-background.jpg");
+background-size: 100% auto;
+background-repeat: no-repeat;
+}
+
+.hotel-found {
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.hotel-title {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.hotel-cards {
+  margin: 0;
+  padding: 0;
+  width: 340px;
+  text-align: left;
+}
+
+.hotel-title {
+  font-weight: 700;
+  color: black;
+}
+
+/*Пагинация*/
+.pagination-container {
+  display: flex;
+  padding: 25px;
+  color: #ffffff;
+}
+
+.pagination {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.pagination-item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.pagination-link {
+  display: block;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  padding-bottom: 30px;
+  line-height: 36px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #82B3D3;
+  text-align: center;
+  text-decoration: none;
+}
