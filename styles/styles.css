@@ -378,6 +378,8 @@ background-repeat: no-repeat;
 .hotel-found {
   font-size: 30px;
   line-height: 36px;
+  text-transform: uppercase;
+
 }
 
 .hotel-title {
