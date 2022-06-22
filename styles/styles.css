@@ -108,16 +108,13 @@ body {
   margin: 0 auto;
 }
 
-.slogan {
-  display: block;
-  margin: 0 auto;
-}
-
-.sedona-white{
+.sedona-slogan{
   margin-top: 0;
   margin-bottom: 84px;
   height: 213px;
   width: 457px;
+  display: block;
+  margin: 0 auto;
 }
 
 .invitation {
