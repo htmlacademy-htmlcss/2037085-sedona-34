@@ -398,3 +398,36 @@ background-repeat: no-repeat;
   font-weight: 700;
   color: black;
 }
+
+/*Пагинация*/
+.pagination-container {
+  display: flex;
+  padding: 25px;
+  color: #ffffff;
+}
+
+.pagination {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.pagination-item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.pagination-link {
+  display: block;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  padding-bottom: 30px;
+  line-height: 36px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #82B3D3;
+  text-align: center;
+  text-decoration: none;
+}
