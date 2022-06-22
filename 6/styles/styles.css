@@ -319,7 +319,8 @@ body {
   height: 40px;
 }
 
-.logo-html-academy .button-link-html{
+.logo-html-academy
+.button-link-html{
   display: flex;
   width: 115px;
   height: 33px;
@@ -329,9 +330,6 @@ body {
 }
 
 .button-link-html{
-  display: flex;
-  width: 115px;
-  height: 33px;
   padding: 38px;
 }
 
