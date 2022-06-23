@@ -112,12 +112,9 @@ body {
   margin: 0 auto;
 }
 
-.sedona-slogan {
+.sedona-slogan {     /*Убирает марджины и паддинги. В 8 разделе  background-position или псевдоэлементом с position: absolute. И у Белого элемента*/
   display: block;
   margin: 0 auto;
-  padding-top: 52px;
-  margin-top: 0;
-  margin-bottom: 83px;
 }
 
 .advantages-text-capital{
@@ -289,7 +286,6 @@ body {
 .footer-contacts-phone {
   font-size: 40px;
   line-height: 40px;
-  color:black;
   width: 331px;
   height: 40px;
   padding-top: 45px;
@@ -297,6 +293,13 @@ body {
   margin: 0 auto;
 }
 
+.phone-number{
+  color:black;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+}
 
 /*Страница каталога*/
 .blurred-mountains{
@@ -316,14 +319,14 @@ body {
 }
 
 .catalog-filter{
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 35px 70px 70px;
-width: 1200px;
-background-image: url("../images/decorative-elements/mountain-background.jpg");
-background-size: 100% auto;
-background-repeat: no-repeat;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ padding: 35px 70px 70px;
+ width: 1200px;
+ background-image: url("../images/decorative-elements/mountain-background.jpg");
+ background-size: 100% auto;
+ background-repeat: no-repeat;
 }
 
 .hotel-found {
@@ -364,11 +367,13 @@ background-repeat: no-repeat;
   list-style-type: none;
 }
 
-.pagination-item:not(:last-child) {
+.pagination-item:not(:first-child){                        /*  not(:first-child)  А как светлой кнопку перву сделать? Отдельный класс для неё?*/
   margin-right: 8px;
+  border: 1px solid #82B3D3;
+  border-radius: 4px;
 }
 
-.pagination-link {
+.pagination-link{
   display: block;
   box-sizing: border-box;
   width: 60px;
