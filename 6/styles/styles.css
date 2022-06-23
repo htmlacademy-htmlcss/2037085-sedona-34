@@ -145,19 +145,21 @@ body {
 }
 
 .advantages-images {
-  padding: 0;
+  display: block;
   width: 800px;
   height: 384px;
   margin: 0;
-  list-style-type: none;
+  padding: 0;
 }
 
 .real-town{
+  display: flex;
   background-color: #82B3D3;
-  width: 400px;
+  width: 1200px;
   color: white;
   padding: 0;
   margin: 0;
+  text-align: center;
   }
 
 .housing{
@@ -182,11 +184,11 @@ body {
 }
 
 .devils-bridge{
+  display: flex;
   background-color: #82B3D3;
-  width: 400px;
+  width: 1200px;
   color: white;
   padding: 0;
-  margin: 0;
   }
 
 .small-area{
@@ -212,13 +214,14 @@ body {
 
 .advantages-title{
   padding-top: 92px;
+  margin:0;
   text-transform: uppercase;
  }
 
 .advantage-number{
   font-size: 18px;
   line-height: 21px;
-  margin: 30px;
+  margin: 0;
   padding: 0;
  }
 
@@ -227,7 +230,7 @@ body {
   line-height: 21px;
   padding: 0;
   margin: 0;
-  margin-bottom: 92px;
+  padding-bottom: 92px;
   }
 
 .blurred-mountains{
@@ -259,8 +262,8 @@ body {
   padding: 0;
   margin-top: 45px;
   margin-bottom: 35px;
-  padding-left: 30px;   /*Так как     padding-inline-start: 40px;*/
-  margin-right: 200px;  /*Чтобы ущё на одну иконку места хватило. Они по 35 пикселей*/
+  margin-left: 70px;
+  margin-right: auto;
   list-style-type: none;
 }
 
