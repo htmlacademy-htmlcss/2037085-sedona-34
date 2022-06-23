@@ -274,12 +274,12 @@ body {
   width: 115px;
   height: 33px;
   margin-top: 49px;
-  margin-right: 32px;  /*70 - 38 (зона клика)*/
   margin-bottom: 39px;
 }
 
 .button-link-html{
   padding: 38px;
+  margin-right: 32px;  /*70 - 38 (зона клика)*/
 }
 
 .footer-contacts-phone {
