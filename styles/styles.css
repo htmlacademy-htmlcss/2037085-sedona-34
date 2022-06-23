@@ -289,7 +289,6 @@ body {
 .footer-contacts-phone {
   font-size: 40px;
   line-height: 40px;
-  color:black;
   width: 331px;
   height: 40px;
   padding-top: 45px;
@@ -297,6 +296,13 @@ body {
   margin: 0 auto;
 }
 
+.phone-number{
+  color:black;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+}
 
 /*Страница каталога*/
 .blurred-mountains{
@@ -369,8 +375,6 @@ body {
   border: 1px solid #82B3D3;
   border-radius: 4px;
 }
-
-
 
 .pagination-link{
   display: block;
