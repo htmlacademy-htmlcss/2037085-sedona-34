@@ -112,12 +112,9 @@ body {
   margin: 0 auto;
 }
 
-.sedona-slogan {
+.sedona-slogan {     /*Убирает марджины и паддинги. В 8 разделе  background-position или псевдоэлементом с position: absolute. И у Белого элемента*/
   display: block;
   margin: 0 auto;
-  padding-top: 52px;
-  margin-top: 0;
-  margin-bottom: 83px;
 }
 
 .advantages-text-capital{
