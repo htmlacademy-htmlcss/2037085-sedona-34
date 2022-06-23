@@ -108,32 +108,12 @@ body {
   margin: 0 auto;
 }
 
-.sedona-slogan{
+.sedona-slogan {
+  display: block;
+  margin: 0 auto;
+  padding-top: 52px;
   margin-top: 0;
-  margin-bottom: 84px;
-  height: 213px;
-  width: 457px;
-  display: block;
-  margin: 0 auto;
-}
-
-.invitation {
-  display: block;
-  margin: 0 auto;
-}
-
-.welkome{
- padding-top: 52px; /*По бокам ничего не указываю у накладывающихся картинок, так как они вырорвнены по центру margin: 0 auto;*/
- margin-bottom: 0;
- height: 45px;
- width: 188px;
-}
-
-.to-the-gorgeous{
- margin-top: 0;
- margin-bottom: 64px;   /*190-52-45-29=64*/
- height: 29px;
- width: 256px;
+  margin-bottom: 83px;
 }
 
 .advantages-text-capital{
@@ -147,7 +127,6 @@ body {
 
 .advantages-text{
   display: block;
-  margin: 0 auto;
   margin-top: 0;
   padding-bottom: 90px;
   text-align: center;
@@ -161,6 +140,7 @@ body {
   padding: 0;
   text-align: center;
   flex-wrap: wrap;
+  list-style-type: none;
 }
 
 .advantages-images {
@@ -172,92 +152,61 @@ body {
 }
 
 .real-town{
-  display: flex;
   background-color: #82B3D3;
   width: 400px;
-  min-height: 384px;
   color: white;
   padding: 0;
   margin: 0;
-  flex-wrap: wrap;
   }
 
 .housing{
-  display: flex;
   background-color:#e6f0fa;
   width: 400px;
-  min-height: 384px;
   padding: 0;
   margin: 0;
-  flex-wrap: wrap;
   }
 
 .meal{
-  display: flex;
   background-color: #FFFFFF;
   width: 400px;
-  min-height: 384px;
   padding: 0;
   margin: 0;
-  flex-wrap: wrap;
 }
 
 .souvenirs{
-  display: flex;
   background-color:#e6f0fa;
   width: 400px;
-  min-height: 384px;
   padding: 0;
   margin: 0;
-  flex-wrap: wrap;
 }
 
 .devils-bridge{
-  display: flex;
   background-color: #82B3D3;
   width: 400px;
-  min-height: 384px;
   color: white;
   padding: 0;
   margin: 0;
-  flex-wrap: wrap;
   }
 
 .small-area{
-  display: flex;
   background-color: #e6f0fa;
   width: 400px;
-  min-height: 384px;
   padding: 0;
   margin: 0;
-  flex-wrap: wrap;
   }
 
 .beautiful-road{
-  display: flex;
   background-color: #e6f0f6;
   width: 400px;
-  min-height: 384px;
   padding: 0;
   margin: 0;
-  flex-wrap: wrap;
 }
 
 .few-tourists{
-  display: flex;
   background-color:#e6f0fa;
   width: 400px;
-  min-height: 384px;
   padding: 0;
   margin: 0;
-  flex-wrap: wrap;
-}
-
-.content-of-advantages{  /*Общие свойства текста внутри дочерних флексов*/
-  display: block;
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
 }
 
 .advantages-title{
