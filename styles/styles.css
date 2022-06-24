@@ -144,6 +144,18 @@ body {
   list-style-type: none;
 }
 
+.advantages-sublist{    /*Строка с непронумерованными блоками*/
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  min-height: 384px;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
 .advantages-images {
   display: block;
   width: 800px;
@@ -152,44 +164,68 @@ body {
   padding: 0;
 }
 
-.real-town{
+.caption{           /*Описание пронумерованных блоков. "Кубики с текстом"*/
+ width: 400px;
+ min-height: 384px;
+}
+
+.blue{
+background-color: #82B3D3;
+color: white;
+}
+
+.real-town{      /*Широкий блок, включающий в себя описание и картинку*/
   display: flex;
   background-color: #82B3D3;
   width: 1200px;
   color: white;
   padding: 0;
   margin: 0;
-  text-align: center;
+
   }
 
-.housing{
+.devils-bridge{     /*Широкий блок, включающий в себя описание и картинку*/
+  display: flex;
+  background-color: #82B3D3;
+  width: 1200px;
+  color: white;
+  padding: 0;
+  margin: 0;
+  }
+
+figure{
+  margin: 0;
+}
+
+.housing{         /*Блок непронумерованный*/
   background-color:#e6f0fa;
   width: 400px;
   padding: 0;
   margin: 0;
   }
 
-.meal{
+.meal{               /*Блок непронумерованный*/
   background-color: #FFFFFF;
   width: 400px;
   padding: 0;
   margin: 0;
 }
 
-.souvenirs{
+.souvenirs{         /*Блок непронумерованный*/
   background-color:#e6f0fa;
   width: 400px;
   padding: 0;
   margin: 0;
 }
 
-.devils-bridge{
+.sub-bottom-row{
   display: flex;
-  background-color: #82B3D3;
+  flex-wrap: wrap;
   width: 1200px;
-  color: white;
+  margin: 0;
   padding: 0;
-  }
+  list-style: none;
+}
 
 .small-area{
   background-color: #e6f0fa;
@@ -213,8 +249,26 @@ body {
 }
 
 .advantages-title{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  width: 230px;
+  height: 56px;
   padding-top: 92px;
-  margin:0;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+ }
+
+ .advantages-subtitle{
+  display: block;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  width: 230px;
+  height: 28px;
+  margin: 0 auto;
+  text-align: center;
   text-transform: uppercase;
  }
 
