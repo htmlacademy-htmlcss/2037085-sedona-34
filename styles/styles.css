@@ -184,7 +184,7 @@ color: white;
 
   }
 
-.devils-bridge{     /*Широкий блок, включающий в себя описание и картинку*/
+.devils-bridge {       /*Широкий блок, включающий в себя описание и картинку*/
   display: flex;
   background-color: #82B3D3;
   width: 1200px;
