@@ -277,6 +277,15 @@ color: white;
   padding-bottom: 92px;
   }
 
+.advantages-description-non-numbered{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 81px;
+}
+
 .blurred-mountains{
   background-image: url("../images/decorative-elements/blurred-mountains.jpg");
   background-size: 100% auto;
@@ -377,6 +386,7 @@ color: white;
 }
 
 .hotel-found {
+  font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
