@@ -30,6 +30,21 @@ body {
   background-color: white;
 }
 
+figure{
+  margin: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .content-centering{
   width: 1200px;
   margin: 0 auto;
@@ -53,9 +68,13 @@ body {
 }
 
 .site-navigation { /*Список ссылок в навигации*/
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  margin-left: 47px;
   max-width: 390px;
+  list-style-type: none;
 }
 
 .navigation-user {
@@ -63,17 +82,28 @@ body {
   margin-left: auto;
 }
 
+.navigation-user .site-navigation {
+  min-width: 20px;
+  min-height: 26px;
+}
+
 .navigation-link {
+  display: block;
+  padding: 20px 19px;
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
+  text-align: center;
   color: black;
   text-decoration: none;
 }
 
 .logo-sedona{   /*Логотип в навигации*/
+  display: block;
   width: 139px;
+  height: 70px;
   margin-right: 70px;
+  margin: -5;
 }
 
 .main-container {
@@ -86,22 +116,24 @@ body {
   margin: 0 auto;
 }
 
-.slogan {
+.sedona-slogan {     /*Убирает марджины и паддинги. В 8 разделе  background-position или псевдоэлементом с position: absolute. И у Белого элемента*/
   display: block;
   margin: 0 auto;
-}
-
-.invitation {
-  display: block;
-  margin: 0 auto;
-}
-
-.advantages-text{
-  text-align: center;
 }
 
 .advantages-text-capital{
+  display: block;
+  margin: 0 auto;
+  margin-top: 63px;
+  margin-bottom: 31px;
   text-transform: uppercase;
+  text-align: center;
+}
+
+.advantages-text{
+  display: block;
+  margin-top: 0;
+  padding-bottom: 90px;
   text-align: center;
 }
 
@@ -113,59 +145,79 @@ body {
   padding: 0;
   text-align: center;
   flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.advantages-sublist{    /*Строка с непронумерованными блоками*/
+  display: flex;
+  width: 1200px;
+  min-height: 384px;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .advantages-images {
-  padding: 0;
+  display: block;
   width: 800px;
+  height: 384px;
   margin: 0;
-    /*Если данные картинки подключены через разметку уже, сюда требуется добавить url?*/
+  padding: 0;
 }
 
-.real-town{
+.caption{           /*Описание пронумерованных блоков. "Кубики с текстом"*/
+ width: 400px;
+ min-height: 384px;
+}
+
+.blue{
+background-color: #82B3D3;
+color: white;
+}
+
+.real-town{      /*Широкий блок, включающий в себя описание и картинку*/
   display: flex;
   background-color: #82B3D3;
-  width: 400px;
+  width: 1200px;
+  color: white;
+  padding: 0;
+  margin: 0;
+
+  }
+
+.devils-bridge {       /*Широкий блок, включающий в себя описание и картинку*/
+  display: flex;
+  background-color: #82B3D3;
+  width: 1200px;
   color: white;
   padding: 0;
   margin: 0;
   }
 
-.housing{
-  display: flex;
+.housing{         /*Блок непронумерованный*/
   background-color:#e6f0fa;
   width: 400px;
   padding: 0;
   margin: 0;
   }
 
-.meal{
-  display: flex;
+.meal{               /*Блок непронумерованный*/
   background-color: #FFFFFF;
   width: 400px;
   padding: 0;
   margin: 0;
 }
 
-.souvenirs{
-  display: flex;
+.souvenirs{         /*Блок непронумерованный*/
   background-color:#e6f0fa;
   width: 400px;
   padding: 0;
   margin: 0;
 }
 
-.devils-bridge{
-  display: flex;
-  background-color: #82B3D3;
-  width: 400px;
-  color: white;
-  padding: 0;
-  margin: 0;
-  }
-
-.small-area{
-  display: flex;
+.small-area{      /*Продолжение пронумерованного списка преимуществ*/
   background-color: #e6f0fa;
   width: 400px;
   padding: 0;
@@ -173,7 +225,6 @@ body {
   }
 
 .beautiful-road{
-  display: flex;
   background-color: #e6f0f6;
   width: 400px;
   padding: 0;
@@ -181,12 +232,65 @@ body {
 }
 
 .few-tourists{
-  display: flex;
   background-color:#e6f0fa;
   width: 400px;
   padding: 0;
   margin: 0;
 }
+
+.advantages-title{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  width: 230px;
+  height: 56px;
+  padding-top: 92px;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+ }
+
+ .advantages-subtitle{
+  display: block;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  width: 230px;
+  height: 28px;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+ }
+
+.advantage-number{
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+  padding: 0;
+ }
+
+.advantages-description{
+  font-size: 18px;
+  line-height: 21px;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 92px;
+  }
+
+.blurred-mountains{
+  background-image: url("../images/decorative-elements/blurred-mountains.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  }
+
+
+.index-background {
+  background-image: url("../images/decorative-elements/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width:1200px;
+  height: 487px;
+  }
 
 .page-footer-container{
   display: flex;
@@ -194,36 +298,54 @@ body {
   margin: 0 auto;
 }
 
-.social-network{
+.footer-social-list {
   display: flex;
-  width: 200px; /*Оставляю запас на ещё одну иконку соцсети*/
-  margin-right: 227px; /* 1200- (115+331+200)=1200-646=554 - осталось на два отступа. Значит каждый отступ = 554/2=227 пикселей*/
+  flex-wrap: wrap;
+  min-width: 143px;
+  margin: 0;
+  padding: 0;
+  margin-top: 45px;
+  margin-bottom: 35px;
+  margin-left: 70px;
+  margin-right: auto;
+  list-style-type: none;
 }
 
-.logo-html-academy{
+.footer-social-item{
+  width: 47px;
+  height: 40px;
+}
+
+.logo-html-academy,
+.button-link-html{
   display: flex;
   width: 115px;
-  margin-left: 227px;
+  height: 33px;
+  margin-top: 49px;
+  margin-bottom: 39px;
+}
+
+.button-link-html{
+  padding: 38px;
+  margin-right: 32px;  /*70 - 38 (зона клика)*/
 }
 
 .footer-contacts-phone {
   font-size: 40px;
   line-height: 40px;
-  color:black;
   width: 331px;
+  height: 40px;
+  padding-top: 45px;
+  padding-bottom: 35px;
+  margin: 0 auto;
 }
 
-.blurred-mountains{
-  background-image: url("../images/decorative-elements/blurred-mountains.jpg");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-}
-/*На этом оформление крупных сеток главной страницы окончено*/
-
-.index-background {
-  background-image: url("../images/decorative-elements/index-background.jpg");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
+.phone-number{
+  color:black;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
 }
 
 /*Страница каталога*/
@@ -244,19 +366,21 @@ body {
 }
 
 .catalog-filter{
-display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 35px 70px 70px;
-width: 1200px;
-background-image: url("../images/decorative-elements/mountain-background.jpg");
-background-size: 100% auto;
-background-repeat: no-repeat;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ padding: 35px 70px 70px;
+ width: 1200px;
+ background-image: url("../images/decorative-elements/mountain-background.jpg");
+ background-size: 100% auto;
+ background-repeat: no-repeat;
 }
 
 .hotel-found {
   font-size: 30px;
   line-height: 36px;
+  text-transform: uppercase;
+
 }
 
 .hotel-title {
@@ -274,4 +398,39 @@ background-repeat: no-repeat;
 .hotel-title {
   font-weight: 700;
   color: black;
+}
+
+/*Пагинация*/
+.pagination-container {
+  display: flex;
+  padding: 25px;
+  color: #ffffff;
+}
+
+.pagination {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.pagination-item:not(:first-child){                        /*  not(:first-child)  А как светлой кнопку перву сделать? Отдельный класс для неё?*/
+  margin-right: 8px;
+  border: 1px solid #82B3D3;
+  border-radius: 4px;
+}
+
+.pagination-link{
+  display: block;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  padding-bottom: 30px;
+  line-height: 36px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #82B3D3;
+  text-align: center;
+  text-decoration: none;
 }
