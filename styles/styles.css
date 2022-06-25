@@ -41,7 +41,7 @@ body {
   overflow: hidden;
 }
 
-.content-centering{
+.content-centering{    /*Тут ещё справа и слева нужно установить марджины по 400 пикселей?*/
   width: 1200px;
   margin: 0 auto;
 }
