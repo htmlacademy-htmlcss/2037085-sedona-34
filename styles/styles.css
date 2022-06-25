@@ -120,6 +120,9 @@ body {
 .advantages-text-capital{
   display: block;
   margin: 0 auto;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
   margin-top: 63px;
   margin-bottom: 31px;
   text-transform: uppercase;
@@ -127,8 +130,11 @@ body {
 }
 
 .advantages-text{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
   display: block;
-  margin-top: 0;
+  margin: 0;
   padding-bottom: 90px;
   text-align: center;
 }
