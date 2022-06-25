@@ -30,6 +30,10 @@ body {
   background-color: white;
 }
 
+figure{
+  margin: 0;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -146,7 +150,6 @@ body {
 
 .advantages-sublist{    /*Строка с непронумерованными блоками*/
   display: flex;
-  flex-wrap: wrap;
   width: 1200px;
   min-height: 384px;
   justify-content: space-between;
@@ -192,10 +195,6 @@ color: white;
   padding: 0;
   margin: 0;
   }
-
-figure{
-  margin: 0;
-}
 
 .housing{         /*Блок непронумерованный*/
   background-color:#e6f0fa;
