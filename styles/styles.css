@@ -41,7 +41,7 @@ body {
   overflow: hidden;
 }
 
-.content-centering{    /*Тут ещё справа и слева нужно установить марджины по 400 пикселей?*/
+.content-centering{    /*Как установить отступы по 40 пикселей слева и справа у всего сайта?*/
   width: 1200px;
   margin: 0 auto;
 }
