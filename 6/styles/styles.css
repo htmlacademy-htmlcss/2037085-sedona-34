@@ -217,16 +217,7 @@ color: white;
   margin: 0;
 }
 
-.sub-bottom-row{
-  display: flex;
-
-  width: 1200px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.small-area{
+.small-area{      /*Продолжение пронумерованного списка преимуществ*/
   background-color: #e6f0fa;
   width: 400px;
   padding: 0;
