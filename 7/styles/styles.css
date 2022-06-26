@@ -150,7 +150,6 @@ img{
   width: 1200px;
   justify-content: space-between;
   margin: 0;
-  margin-bottom: 91px;
   padding: 0;
   text-align: center;
   flex-wrap: wrap;
@@ -311,39 +310,42 @@ color: white;
   }
 
 .search-hotel{     /*Cекция с поиском гостиницы*/
- display: grid;
- grid-template-rows: 36px 52px 60px;
- row-gap: 29px;
+ margin: 0 auto;
+ padding-top: 91px;
 }
 
 .question{
-  display: block;
-  margin: 0 auto;
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
+  margin:0;
+  padding-bottom: 29px;
   text-transform: uppercase;
   text-align: center;
 }
 
 .date-indication{
-  display: block;
   margin: 0 auto;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
+  padding-bottom: 56px;
 }
 
-.button-search-hotel{   /*Белый текст на белом фоне пока не видно*/
+.button-search-hotel{
   display: block;
   margin: 0 auto;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
+  font-style: normal;
+  text-decoration: none;
   text-transform: uppercase;
   text-align: center;
   color:#ffffff;
+  background-color: #756157;
+  margin-bottom: 93px;
 }
 
 .page-footer-container{
@@ -449,14 +451,12 @@ color: white;
 
 .hotel-card{    /*КарточкА гостиницы*/
   display: grid;
-  grid-template-rows: 20px 211px min-content auto min-content auto 20px;  /*отступ-высота картинки-название может удлиниться-ауто для цены-кнопки-рейтинг короткий-отступ*/
-  grid-template-columns: 20px 211px 20px;
-  grid-column: 2/3;
+  grid-template-columns: repeat(3, 1fr);
   gap: 18px;
   width: 340px;
 }
 
-.hotel{   /*Изображения отелей*/
+.hotels-images{
  grid-column: 2/3;
  grid-row: 2/3;
 }
