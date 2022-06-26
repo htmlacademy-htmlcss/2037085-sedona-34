@@ -451,7 +451,6 @@ color: white;
   display: grid;
   grid-template-rows: 20px 211px min-content auto min-content auto 20px;  /*отступ-высота картинки-название может удлиниться-ауто для цены-кнопки-рейтинг короткий-отступ*/
   grid-template-columns: 20px 211px 20px;
-  grid-column: 2/3;
   gap: 18px;
   width: 340px;
 }
