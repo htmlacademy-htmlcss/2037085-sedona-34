@@ -340,9 +340,12 @@ color: white;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
+  font-style: normal;
+  text-decoration: none;
   text-transform: uppercase;
   text-align: center;
   color:#ffffff;
+  background-color: #756157;
 }
 
 .page-footer-container{
