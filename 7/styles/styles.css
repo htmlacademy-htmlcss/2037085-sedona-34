@@ -522,10 +522,8 @@ color: white;
   list-style-type: none;
 }
 
-.pagination-item:not(:first-child){                        /*  not(:first-child)  А как светлой кнопку первую сделать? Отдельный класс для неё?*/
+.pagination-item{
   margin-right: 8px;
-  border: 1px solid #82B3D3;
-  border-radius: 4px;
 }
 
 .pagination-link{
@@ -541,4 +539,11 @@ color: white;
   background-color: #82B3D3;
   text-align: center;
   text-decoration: none;
+}
+
+.pagination-current{
+  border: 1px solid #82B3D3;
+  border-radius: 4px;
+  background-color: #F2F2F2;
+  color: black;
 }
