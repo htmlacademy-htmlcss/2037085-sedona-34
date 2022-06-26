@@ -473,6 +473,10 @@ color: white;
   margin-bottom: 16px;
 }
 
+.hotel-type-price, hotel-links, hotel-rating{
+  justify-content: space-between;
+}
+
 .hotel-type-price{    /*2 строчки друг напротив друга - гостиница и цена*/
   display: grid;
   grid-template-columns: 140px 140px;
