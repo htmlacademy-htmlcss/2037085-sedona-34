@@ -449,8 +449,7 @@ color: white;
 
 .hotel-card{    /*КарточкА гостиницы*/
   display: grid;
-  grid-template-rows: 20px 211px min-content auto min-content auto 20px;  /*отступ-высота картинки-название может удлиниться-ауто для цены-кнопки-рейтинг короткий-отступ*/
-  grid-template-columns: 20px 211px 20px;
+  grid-template-columns: repeat(3, 1fr);
   gap: 18px;
   width: 340px;
 }
