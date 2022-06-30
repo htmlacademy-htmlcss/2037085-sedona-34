@@ -72,6 +72,14 @@ img{
   border-radius: 4px;
 }
 
+.brown-button{
+  background-color: #756157;
+}
+
+.green-button{
+  background-color: #7DB54F;
+}
+
 /*Стили для повторяющегося текста*/
 .text-xxl{
   font-weight: 700;
