@@ -24,8 +24,6 @@ body {
   flex-direction: column;
   min-height: 100%;
   font-family: "PT Sans", sans-serif;
-  font-size: 24px; /*Выбрала чаще всего встречающийся размер текста и межстрочный интервал*/
-  line-height: 28px; /*Выбрала чаще всего встречающийся размер текста и межстрочный интервал*/
   color:black;
   background-color: white;
 }
@@ -47,8 +45,7 @@ img{
   overflow: hidden;
 }
 
-.content-centering{    /*Как установить отступы по 40 пикселей слева и справа у всего сайта?*/
-  width: 1200px;       /*padding-left:40px;      padding-right:40px; у этого контейнера? В материалах так написано, но почему паддинг-то, если это внешние поля?*/
+.content-centering{
   margin: 0 auto;
 }
 
@@ -63,6 +60,24 @@ img{
   text-transform: uppercase;
 }
 
+/*Стили для текста*/
+.text-xxl{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  color:#000000;
+}
+
+.text-xxl-white{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  color:  #FFFFFF;
+}
 .navigation {
   display: flex;
   width: 1200px;
@@ -111,7 +126,6 @@ img{
 .main-container {
   flex-grow: 1;
 }
-/*На этом была завершена разметка "Липкого футера"*/
 
 .page-container {
   width: 1200px;
@@ -126,13 +140,8 @@ img{
 .advantages-text-capital{
   display: block;
   margin: 0 auto;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
   margin-top: 63px;
   margin-bottom: 31px;
-  text-transform: uppercase;
-  text-align: center;
 }
 
 .advantages-text{
@@ -315,13 +324,8 @@ color: white;
 }
 
 .question{
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
   margin:0;
   padding-bottom: 29px;
-  text-transform: uppercase;
-  text-align: center;
 }
 
 .date-indication{
@@ -433,11 +437,7 @@ color: white;
 }
 
 .hotel-found {
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
-  text-transform: uppercase;
-
+  text-align: left;
 }
 
 .catalog-cards-hotels {       /*Контейнер с карточкамИ гостиниц*/
@@ -551,5 +551,3 @@ color: white;
   background-color: #F2F2F2;
   color: black;
 }
-
-/*Написала комментарий, чтобы можно было открыть 8 пуллриквест, в котором буду исправлять ошибки из предыдущих ДЗ и само 8 ДЗ выполнять*/
