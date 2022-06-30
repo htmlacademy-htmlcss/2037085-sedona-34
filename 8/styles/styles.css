@@ -1,0 +1,555 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+html{
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px; /*Выбрала чаще всего встречающийся размер текста и межстрочный интервал*/
+  line-height: 28px; /*Выбрала чаще всего встречающийся размер текста и межстрочный интервал*/
+  color:black;
+  background-color: white;
+}
+
+img{
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.content-centering{    /*Как установить отступы по 40 пикселей слева и справа у всего сайта?*/
+  width: 1200px;       /*padding-left:40px;      padding-right:40px; у этого контейнера? В материалах так написано, но почему паддинг-то, если это внешние поля?*/
+  margin: 0 auto;
+}
+
+.button {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navigation {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.site-navigation { /*Список ссылок в навигации*/
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  margin-left: 47px;
+  max-width: 390px;
+  list-style-type: none;
+}
+
+.navigation-user {
+  max-width: 264px;
+  margin-left: auto;
+}
+
+.navigation-user .site-navigation {
+  min-width: 20px;
+  min-height: 26px;
+}
+
+.navigation-link {
+  display: block;
+  padding: 20px 19px;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+
+.logo-sedona{   /*Логотип в навигации*/
+  display: block;
+  width: 139px;
+  height: 70px;
+  margin-right: 70px;
+  margin: -5;
+}
+
+.main-container {
+  flex-grow: 1;
+}
+/*На этом была завершена разметка "Липкого футера"*/
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.sedona-slogan {     /*Убирает марджины и паддинги. В 8 разделе  background-position или псевдоэлементом с position: absolute. И у Белого элемента*/
+  display: block;
+  margin: 0 auto;
+}
+
+.advantages-text-capital{
+  display: block;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  margin-top: 63px;
+  margin-bottom: 31px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.advantages-text{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  display: block;
+  margin: 0;
+  padding-bottom: 90px;
+  text-align: center;
+}
+
+.advantages-list {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.advantages-sublist{    /*Строка с непронумерованными блоками*/
+  display: flex;
+  width: 1200px;
+  min-height: 384px;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.advantages-images {
+  display: block;
+  width: 800px;
+  height: 384px;
+  margin: 0;
+  padding: 0;
+}
+
+.caption{           /*Описание пронумерованных блоков. "Кубики с текстом"*/
+ width: 400px;
+ min-height: 384px;
+}
+
+.blue{
+background-color: #82B3D3;
+color: white;
+}
+
+.real-town{      /*Широкий блок, включающий в себя описание и картинку*/
+  display: flex;
+  background-color: #82B3D3;
+  width: 1200px;
+  color: white;
+  padding: 0;
+  margin: 0;
+
+  }
+
+.devils-bridge {       /*Широкий блок, включающий в себя описание и картинку*/
+  display: flex;
+  background-color: #82B3D3;
+  width: 1200px;
+  color: white;
+  padding: 0;
+  margin: 0;
+  }
+
+.housing{         /*Блок непронумерованный*/
+  background-color:#e6f0fa;
+  width: 400px;
+  padding: 0;
+  margin: 0;
+  }
+
+.meal{               /*Блок непронумерованный*/
+  background-color: #FFFFFF;
+  width: 400px;
+  padding: 0;
+  margin: 0;
+}
+
+.souvenirs{         /*Блок непронумерованный*/
+  background-color:#e6f0fa;
+  width: 400px;
+  padding: 0;
+  margin: 0;
+}
+
+.small-area{      /*Продолжение пронумерованного списка преимуществ*/
+  background-color: #e6f0fa;
+  width: 400px;
+  padding: 0;
+  margin: 0;
+  }
+
+.beautiful-road{
+  background-color: #e6f0f6;
+  width: 400px;
+  padding: 0;
+  margin: 0;
+}
+
+.few-tourists{
+  background-color:#e6f0fa;
+  width: 400px;
+  padding: 0;
+  margin: 0;
+}
+
+.advantages-title{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  width: 230px;
+  height: 56px;
+  padding-top: 92px;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+ }
+
+ .advantages-subtitle{
+  display: block;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  width: 230px;
+  height: 28px;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+ }
+
+.advantage-number{
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+  padding: 0;
+ }
+
+.advantages-description{
+  font-size: 18px;
+  line-height: 21px;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 92px;
+  }
+
+.advantages-description-non-numbered{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 81px;
+}
+
+.blurred-mountains{
+  background-image: url("../images/decorative-elements/blurred-mountains.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  }
+
+
+.index-background {
+  background-image: url("../images/decorative-elements/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width:1200px;
+  height: 487px;
+  }
+
+.search-hotel{     /*Cекция с поиском гостиницы*/
+ margin: 0 auto;
+ padding-top: 91px;
+}
+
+.question{
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  margin:0;
+  padding-bottom: 29px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.date-indication{
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  padding-bottom: 56px;
+}
+
+.button-search-hotel{
+  display: block;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color:#ffffff;
+  background-color: #756157;
+  margin-bottom: 93px;
+}
+
+.page-footer-container{
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-social-list {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 143px;
+  margin: 0;
+  padding: 0;
+  margin-top: 45px;
+  margin-bottom: 35px;
+  margin-left: 70px;
+  margin-right: auto;
+  list-style-type: none;
+}
+
+.footer-social-item{
+  width: 47px;
+  height: 40px;
+}
+
+.logo-html-academy,
+.button-link-html{
+  display: flex;
+  width: 115px;
+  height: 33px;
+  margin-top: 49px;
+  margin-bottom: 39px;
+}
+
+.button-link-html{
+  padding: 38px;
+  margin-right: 32px;  /*70 - 38 (зона клика)*/
+}
+
+.footer-contacts-phone {
+  font-size: 40px;
+  line-height: 40px;
+  width: 331px;
+  height: 40px;
+  padding-top: 45px;
+  padding-bottom: 35px;
+  margin: 0 auto;
+}
+
+.phone-number{
+  color:black;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+/*Страница каталога*/
+.blurred-mountains{
+  background-image: url("../images/decorative-elements/blurred-mountains.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.page-name {
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.bread-crumbs {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.catalog-filter{
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ padding: 35px 70px 70px;
+ width: 1200px;
+ background-image: url("../images/decorative-elements/mountain-background.jpg");
+ background-size: 100% auto;
+ background-repeat: no-repeat;
+}
+
+.hotel-found {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+
+}
+
+.catalog-cards-hotels {       /*Контейнер с карточкамИ гостиниц*/
+  display: grid;
+  width: 1200px;
+  grid-template-columns: 340px 340px 340px;
+  gap: 18px;
+  margin:0 auto;
+  margin-bottom: 66px;
+}
+
+.hotel-card{    /*КарточкА гостиницы*/
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  width: 340px;
+}
+
+.hotels-images{
+ grid-column: 2/3;
+ grid-row: 2/3;
+}
+
+.hotel-title {
+  display: grid;
+  grid-column: 2/3;
+  grid-row: 3/4;
+  font-weight: 700;
+  color: black;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.hotel-type-price,
+.hotel-links,
+.hotel-rating{
+  justify-content: space-between;
+}
+
+.hotel-type-price{    /*2 строчки друг напротив друга - гостиница и цена*/
+  display: grid;
+  grid-template-columns: 140px 140px;
+  grid-column: 2/3;
+  grid-row: 4/5;
+  gap: 20px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.hotel-links{           /*2 кнопки Подробнее и  В избранное друг напротив друга*/
+  display: grid;
+  grid-template-columns: 140px 140px;
+  grid-column: 2/3;
+  grid-row: 5/6;
+  gap: 20px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.hotel-rating{              /*2 Друг напротив друга  звёздочки и рейтинг*/
+  display: grid;
+  grid-template-columns: 140px 140px;
+  grid-column: 2/3;
+  grid-row: 6/7;
+  gap: 20px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+
+/*Пагинация*/
+.pagination-container {
+  display: flex;
+  padding: 25px;
+  color: #ffffff;
+}
+
+.pagination {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.pagination-item{
+  margin-right: 8px;
+}
+
+.pagination-link{
+  display: block;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  line-height: 36px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #82B3D3;
+  border-radius: 4px;
+  text-align: center;
+  padding-top: 11px;
+  padding-bottom: 12px;
+  text-decoration: none;
+}
+
+.pagination-current{
+  border: 1px solid #82B3D3;
+  border-radius: 4px;
+  background-color: #F2F2F2;
+  color: black;
+}
+
+/*Написала комментарий, чтобы можно было открыть 8 пуллриквест, в котором буду исправлять ошибки из предыдущих ДЗ и само 8 ДЗ выполнять*/
