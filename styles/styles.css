@@ -49,15 +49,27 @@ img{
   margin: 0 auto;
 }
 
-.button {
-  font-family: inherit;
-  font-size: 20px;
-  line-height: 36px;
+.large-buttons,
+.small-buttons{
   font-weight: 700;
   text-align: center;
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
+  background-color: #82B3D3; /*Чаще всего встречается*/
+}
+
+.large-buttons{
+  font-size: 20px;
+  line-height: 36px;
+  padding: 12px 15px;
+}
+
+.small-buttons{
+  font-size: 16px;
+  line-height: 20px;
+  padding: 8px 15px;
+  border-radius: 4px;
 }
 
 /*Стили для повторяющегося текста*/
@@ -109,7 +121,6 @@ img{
   color:#000000;
   text-decoration: none;
 }
-
 
 
 .navigation {
@@ -233,7 +244,6 @@ img{
   color: white;
   padding: 0;
   margin: 0;
-
   }
 
 .devils-bridge {       /*Широкий блок, включающий в себя описание и картинку*/
@@ -345,27 +355,24 @@ img{
 }
 
 .date-indication{
+  padding: 0;
   margin: 0 auto;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
-  padding-bottom: 56px;
+  margin-bottom: 56px;
 }
 
 .button-search-hotel{
-  display: block;
-  margin: 0 auto;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 36px;
   font-style: normal;
   text-decoration: none;
-  text-transform: uppercase;
-  text-align: center;
-  color:#ffffff;
   background-color: #756157;
   margin-bottom: 93px;
+  border-radius: 4px;
+  position: relative;
+  left: 37%;
+  transform: translate(-50%, 0);
 }
 
 .page-footer-container{
