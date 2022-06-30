@@ -127,6 +127,11 @@ img{
   margin-bottom: 56px;
 }
 
+.null-margins{  /*Класс для обнуления отступов*/
+ margin: 0;
+ padding: 0;
+}
+
 .name-hotels-links{
   color:#000000;
   text-decoration: none;
@@ -376,6 +381,10 @@ img{
   position: relative;
   left: 37%;
   transform: translate(-50%, 0);
+}
+
+.mailing{
+  padding-top: 94px;
 }
 
 .page-footer-container{
