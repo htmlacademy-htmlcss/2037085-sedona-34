@@ -60,7 +60,7 @@ img{
   text-transform: uppercase;
 }
 
-/*Стили для текста*/
+/*Стили для повторяющегося текста*/
 .text-xxl{
   font-weight: 700;
   font-size: 30px;
@@ -109,6 +109,8 @@ img{
   color:#000000;
   text-decoration: none;
 }
+
+
 
 .navigation {
   display: flex;
@@ -194,6 +196,7 @@ img{
   padding: 0;
   flex-wrap: wrap;
   list-style-type: none;
+  text-align: center;
 }
 
 .advantages-sublist{    /*Строка с непронумерованными блоками*/
@@ -298,27 +301,21 @@ img{
   margin: 0 auto;
  }
 
-.advantage-number{
-  font-size: 18px;
-  line-height: 21px;
-  margin: 0;
-  padding: 0;
- }
-
-.advantages-description{
-  font-size: 18px;
-  line-height: 21px;
-  padding: 0;
-  margin: 0;
-  padding-bottom: 92px;
-  }
-
+.advantage-number,
+.advantages-description,
 .advantages-description-non-numbered{
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   padding: 0;
   margin: 0;
+}
+
+.advantages-description{
+  padding-bottom: 92px;
+  }
+
+.advantages-description-non-numbered{
   padding-bottom: 81px;
 }
 
