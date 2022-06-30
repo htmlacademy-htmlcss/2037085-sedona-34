@@ -78,6 +78,38 @@ img{
   text-align: center;
   color:  #FFFFFF;
 }
+
+.text-xl{ /*Используется в названиях преимуществ*/
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  color:#000000;
+}
+
+.text-xl-white{ /*Используется в названиях преимуществ белого цвета*/
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  color:  #FFFFFF;
+}
+
+.text-xl-name-hotels{ /*Используется в названиях гостиниц*/
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: left;
+  font-style: normal;
+}
+
+.name-hotels-links{
+  color:#000000;
+  text-decoration: none;
+}
+
 .navigation {
   display: flex;
   width: 1200px;
@@ -160,7 +192,6 @@ img{
   justify-content: space-between;
   margin: 0;
   padding: 0;
-  text-align: center;
   flex-wrap: wrap;
   list-style-type: none;
 }
@@ -173,7 +204,6 @@ img{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
 .advantages-images {
@@ -190,8 +220,7 @@ img{
 }
 
 .blue{
-background-color: #82B3D3;
-color: white;
+ background-color: #82B3D3;
 }
 
 .real-town{      /*Широкий блок, включающий в себя описание и картинку*/
@@ -256,27 +285,17 @@ color: white;
 }
 
 .advantages-title{
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
   width: 230px;
   height: 56px;
   padding-top: 92px;
   margin: 0 auto;
-  text-align: center;
-  text-transform: uppercase;
  }
 
  .advantages-subtitle{
   display: block;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
   width: 230px;
   height: 28px;
   margin: 0 auto;
-  text-align: center;
-  text-transform: uppercase;
  }
 
 .advantage-number{
@@ -465,10 +484,6 @@ color: white;
   display: grid;
   grid-column: 2/3;
   grid-row: 3/4;
-  font-weight: 700;
-  color: black;
-  font-size: 24px;
-  line-height: 28px;
   margin-top: 16px;
   margin-bottom: 16px;
 }
