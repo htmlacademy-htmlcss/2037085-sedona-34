@@ -117,6 +117,16 @@ img{
   font-style: normal;
 }
 
+.calling-text{ /*Призывающий текствнутри формы и блоков*/
+  padding: 0;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 56px;
+}
+
 .name-hotels-links{
   color:#000000;
   text-decoration: none;
@@ -330,9 +340,12 @@ img{
 }
 
 .blurred-mountains{
+  display: block;
   background-image: url("../images/decorative-elements/blurred-mountains.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  width:1200px;
+  height: 411px;
   }
 
 
@@ -352,16 +365,6 @@ img{
 .question{
   margin:0;
   padding-bottom: 29px;
-}
-
-.date-indication{
-  padding: 0;
-  margin: 0 auto;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 26px;
-  text-align: center;
-  margin-bottom: 56px;
 }
 
 .button-search-hotel{
