@@ -95,9 +95,10 @@ img{
   line-height: 26px;
 }
 
-.text-xl-name-hotels{ /*Используется в названиях гостиниц*/   /*установить класс после текст 2хл выше*/
+.text-name-hotels{ /*Используется в названиях гостиниц*/   /*установить класс после текст 2хл выше*/
   text-align: left;
   font-style: normal;
+  text-transform: none;
 }
 
 .text-white{
@@ -267,6 +268,7 @@ img{
 
 .background-blue{
  background-color: #82B3D3;
+ box-sizing: border-box;
 }
 
 .real-town{      /*Широкий блок, включающий в себя описание и картинку*/
@@ -463,6 +465,8 @@ img{
 .page-name {
   font-size: 60px;
   line-height: 78px;
+  padding-top: 35px;
+  padding-left: 70px;
 }
 
 .bread-crumbs {
@@ -482,6 +486,8 @@ img{
 }
 
 .hotel-found {
+  padding-top: 57px;
+  padding-left: 72px;
   text-align: left;
 }
 
