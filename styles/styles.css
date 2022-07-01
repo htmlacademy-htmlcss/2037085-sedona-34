@@ -53,6 +53,11 @@ img{
   margin: 0 auto;
 }
 
+.null-margins{  /*Класс для обнуления отступов*/
+  margin: 0;
+  padding: 0;
+ }
+
 
 /*Стили для повторяющегося текста*/
 .text-6xl{
@@ -84,14 +89,10 @@ img{
   line-height: 20px;
 }
 
-.text-xl{ /*Призывающий текствнутри формы и блоков*/
-  padding: 0;    /*calling-text*/
-  margin: 0 auto;
+.text-xl{ /*Призывающий текствнутри формы и блоков*/ /*calling-text*/
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
-  text-align: center;
-  margin-bottom: 56px;
 }
 
 .text-xl-name-hotels{ /*Используется в названиях гостиниц*/   /*установить класс после текст 2хл выше*/
@@ -213,18 +214,16 @@ img{
 .advantages-text-capital{
   display: block;
   margin: 0 auto;
-  margin-top: 63px;
-  margin-bottom: 31px;
+  padding-top: 63px;
 }
 
 .advantages-text{
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 26px;
   display: block;
   margin: 0;
+  padding-top: 31px;
   padding-bottom: 90px;
   text-align: center;
+  word-break: break-all;
 }
 
 .advantages-list {
@@ -241,11 +240,9 @@ img{
 .advantages-sublist{    /*Строка с непронумерованными блоками*/
   display: flex;
   width: 1200px;
-  min-height: 384px;
   justify-content: space-between;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  box-sizing: border-box;
 }
 
 .advantages-images {
@@ -258,7 +255,14 @@ img{
 
 .caption{           /*Описание пронумерованных блоков. "Кубики с текстом"*/
  width: 400px;
- min-height: 384px;
+ padding: 92px 85px 92px 85px;
+ box-sizing: border-box;
+}
+
+.caption-unnumbered{
+  width: 400px;
+  padding: 182px 85px 81px 85px;
+  box-sizing: border-box;
 }
 
 .background-blue{
@@ -281,61 +285,42 @@ img{
 
 .housing{         /*Блок непронумерованный*/
   background-color:#e6f0fa;
-  width: 400px;
-  padding: 0;
   margin: 0;
   }
 
 .meal{               /*Блок непронумерованный*/
   background-color: #ffffff;
-  width: 400px;
-  padding: 0;
   margin: 0;
 }
 
 .souvenirs{         /*Блок непронумерованный*/
   background-color:#e6f0fa;
-  width: 400px;
-  padding: 0;
   margin: 0;
 }
 
 .small-area{      /*Продолжение пронумерованного списка преимуществ*/
   background-color: #e6f0fa;
-  width: 400px;
-  padding: 0;
-  margin: 0;
+  padding: 103px 85px 102px 85px;
   }
 
 .beautiful-road{
   background-color: #e6f0f6;
-  width: 400px;
-  padding: 0;
-  margin: 0;
+  padding: 103px 85px 102px 85px;
 }
 
 .few-tourists{
   background-color:#e6f0fa;
-  width: 400px;
-  padding: 0;
-  margin: 0;
+  padding: 103px 85px 102px 85px;
 }
 
 .advantages-title{
-  width: 230px;
-  height: 56px;
-  padding-top: 92px;
   padding-bottom: 30px;
   margin: 0 auto;
  }
 
  .advantages-subtitle{
-  display: block;
-  width: 230px;
-  height: 28px;
-  margin: 0 auto;
-  padding-top: 182px;
   padding-bottom: 30px;
+  margin: 0 auto;
  }
 
 .advantage-number,
@@ -350,14 +335,6 @@ img{
 
 .advantage-number{
   padding-bottom: 30px;
-}
-
-.advantages-description{
-  padding-bottom: 92px;
-  }
-
-.advantages-description-non-numbered{
-  padding-bottom: 81px;
 }
 
 .blurred-mountains{
@@ -380,23 +357,40 @@ img{
 
 .search-hotel{     /*Cекция с поиском гостиницы*/
  margin: 0 auto;
- padding-top: 91px;
 }
 
 .question{
   margin:0;
-  padding-bottom: 29px;
+  padding-top: 91px;
+}
+
+.date-trip{
+  padding-top: 29px;
+  padding-bottom: 56px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .button-search-hotel{
   font-style: normal;
   text-decoration: none;
+  width: 574px;
   background-color: #756157;
-  margin-bottom: 93px;
   border-radius: 4px;
-  position: relative;
-  left: 37%;
-  transform: translate(-50%, 0);
+  margin:0 auto;
+  margin-left: 313px;
+  position: absolute;
+}
+
+.useful-info{
+  padding-top: 29px;
+  padding-bottom: 46px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.newsletter-subscription-form{
+  padding-top: 93px;
 }
 
 .mailing{
@@ -604,8 +598,3 @@ img{
   background-color: #F2F2F2;
   color: #000000;
 }
-
-.null-margins{  /*Класс для обнуления отступов*/
-  margin: 0;
-  padding: 0;
- }
