@@ -28,8 +28,8 @@ body {
   font-weight: 400;  /*Почти самый маленький текст (там ещё 16px есть). Будет часто встречаться в форме и попапе, внутри карточек гостиниц*/
   font-size: 18px;
   line-height: 21px;
-  color:black;
-  background-color: white;
+  color:#000000;
+  background-color: #FFFFFF;
 }
 
 img{
@@ -95,17 +95,12 @@ img{
 }
 
 .text-white{
-  color:  #FFFFFF;
+  color:  #ffffff;
 }
 
 .text-xl-name-hotels{ /*Используется в названиях гостиниц*/   /*установить класс после текст 2хл выше*/
   text-align: left;
   font-style: normal;
-}
-
-.null-margins{  /*Класс для обнуления отступов*/
- margin: 0;
- padding: 0;
 }
 
 .name-hotels-links{
@@ -147,7 +142,7 @@ img{
   line-height: 26px;
   font-weight: 700;
   text-align: center;
-  color: black;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -274,7 +269,7 @@ img{
   display: flex;
   background-color: #82B3D3;
   width: 1200px;
-  color: white;
+  color: #ffffff;
   padding: 0;
   margin: 0;
   }
@@ -283,7 +278,7 @@ img{
   display: flex;
   background-color: #82B3D3;
   width: 1200px;
-  color: white;
+  color: #ffffff;
   padding: 0;
   margin: 0;
   }
@@ -296,7 +291,7 @@ img{
   }
 
 .meal{               /*Блок непронумерованный*/
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 400px;
   padding: 0;
   margin: 0;
@@ -461,7 +456,7 @@ img{
 }
 
 .phone-number{
-  color:black;
+  color:#000000;
   text-decoration: none;
   text-align: center;
   text-transform: uppercase;
@@ -611,5 +606,10 @@ img{
   border: 1px solid #82B3D3;
   border-radius: 4px;
   background-color: #F2F2F2;
-  color: black;
+  color: #000000;
 }
+
+.null-margins{  /*Класс для обнуления отступов*/
+  margin: 0;
+  padding: 0;
+ }
