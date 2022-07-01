@@ -14,6 +14,7 @@
   font-display: swap;
 }
 
+
 html{
   height: 100%;
 }
@@ -49,36 +50,6 @@ img{
   margin: 0 auto;
 }
 
-.large-buttons,
-.small-buttons{
-  font-weight: 700;
-  text-align: center;
-  color: #ffffff;
-  text-decoration: none;
-  text-transform: uppercase;
-  background-color: #82B3D3; /*Чаще всего встречается*/
-}
-
-.large-buttons{
-  font-size: 20px;
-  line-height: 36px;
-  padding: 12px 15px;
-}
-
-.small-buttons{
-  font-size: 16px;
-  line-height: 20px;
-  padding: 8px 15px;
-  border-radius: 4px;
-}
-
-.brown-button{
-  background-color: #756157;
-}
-
-.green-button{
-  background-color: #7DB54F;
-}
 
 /*Стили для повторяющегося текста*/
 .text-xxl{
@@ -125,6 +96,12 @@ img{
   font-style: normal;
 }
 
+.text-card-hotels{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
 .calling-text{ /*Призывающий текствнутри формы и блоков*/
   padding: 0;
   margin: 0 auto;
@@ -157,7 +134,7 @@ img{
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  margin-left: 47px;
+  margin-left: 256px;
   max-width: 390px;
   list-style-type: none;
 }
@@ -165,6 +142,7 @@ img{
 .navigation-user {
   max-width: 264px;
   margin-left: auto;
+  margin-right: 70px;
 }
 
 .navigation-user .site-navigation {
@@ -172,7 +150,7 @@ img{
   min-height: 26px;
 }
 
-.navigation-link {
+.navigation-link{
   display: block;
   padding: 20px 19px;
   font-size: 20px;
@@ -184,11 +162,50 @@ img{
 }
 
 .logo-sedona{   /*Логотип в навигации*/
-  display: block;
+  position: absolute;
   width: 139px;
   height: 70px;
-  margin-right: 70px;
+  display: block;
   margin: -5;
+  margin-left: 70px;
+}
+
+
+.large-buttons,
+.small-buttons{
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #82B3D3; /*Чаще всего встречается*/
+}
+
+.large-buttons{
+  font-size: 20px;
+  line-height: 36px;
+  padding: 12px 15px;
+}
+
+.small-buttons{
+  font-size: 16px;
+  line-height: 20px;
+  padding-top: 9px;
+  padding: 9px 15px 8px 15px;
+  border-radius: 4px;
+}
+
+.brown-button{
+  background-color: #756157;
+}
+
+.green-button{
+  background-color: #7DB54F;
+}
+
+.desire-button{
+  margin-top: 14px;
+  margin-bottom: 14px;
 }
 
 .main-container {
@@ -200,9 +217,12 @@ img{
   margin: 0 auto;
 }
 
-.sedona-slogan {     /*Убирает марджины и паддинги. В 8 разделе  background-position или псевдоэлементом с position: absolute. И у Белого элемента*/
-  display: block;
-  margin: 0 auto;
+.sedona-slogan {
+  position: relative;
+  top: 51px;
+  left: 372px;
+  right: 372px;
+  bottom: 83px;
 }
 
 .advantages-text-capital{
@@ -324,6 +344,7 @@ img{
   width: 230px;
   height: 56px;
   padding-top: 92px;
+  padding-bottom: 30px;
   margin: 0 auto;
  }
 
@@ -332,6 +353,8 @@ img{
   width: 230px;
   height: 28px;
   margin: 0 auto;
+  padding-top: 182px;
+  padding-bottom: 30px;
  }
 
 .advantage-number,
@@ -342,6 +365,10 @@ img{
   line-height: 21px;
   padding: 0;
   margin: 0;
+}
+
+.advantage-number{
+  padding-bottom: 30px;
 }
 
 .advantages-description{
@@ -548,6 +575,12 @@ img{
   margin-bottom: 16px;
 }
 
+.hotel-rating-number{
+ text-align: center;
+ background-color: #F2F2F2;
+ border-radius: 4px;
+ padding: 9px 22px 8px 23px;
+}
 
 /*Пагинация*/
 .pagination-container {
