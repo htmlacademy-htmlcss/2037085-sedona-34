@@ -25,6 +25,9 @@ body {
   flex-direction: column;
   min-height: 100%;
   font-family: "PT Sans", sans-serif;
+  font-weight: 400;  /*Почти самый маленький текст (там ещё 16px есть). Будет часто встречаться в форме и попапе, внутри карточек гостиниц*/
+  font-size: 18px;
+  line-height: 21px;
   color:black;
   background-color: white;
 }
@@ -52,7 +55,12 @@ img{
 
 
 /*Стили для повторяющегося текста*/
-.text-xxl{
+.text-6xl{
+  font-size: 60px;
+  line-height: 78px;
+}
+
+.text-3xl{   /*text-xxl*/
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -61,17 +69,8 @@ img{
   color:#000000;
 }
 
-.text-xxl-white{
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 36px;
-  text-transform: uppercase;
-  text-align: center;
-  color:  #FFFFFF;
-}
-
-.text-xl{ /*Используется в названиях преимуществ*/
-  font-weight: 700;
+.text-2xl{ /*Используется в названиях преимуществ*/
+  font-weight: 700;     /*text-xl*/
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
@@ -79,37 +78,29 @@ img{
   color:#000000;
 }
 
-.text-xl-white{ /*Используется в названиях преимуществ белого цвета*/
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  text-transform: uppercase;
-  text-align: center;
-  color:  #FFFFFF;
-}
-
-.text-xl-name-hotels{ /*Используется в названиях гостиниц*/
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 28px;
-  text-align: left;
-  font-style: normal;
-}
-
-.text-card-hotels{
+.text-base{    /*Рейтинг отелей*/
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
 }
 
-.calling-text{ /*Призывающий текствнутри формы и блоков*/
-  padding: 0;
+.text-xl{ /*Призывающий текствнутри формы и блоков*/
+  padding: 0;    /*calling-text*/
   margin: 0 auto;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
   margin-bottom: 56px;
+}
+
+.text-white{
+  color:  #FFFFFF;
+}
+
+.text-xl-name-hotels{ /*Используется в названиях гостиниц*/   /*установить класс после текст 2хл выше*/
+  text-align: left;
+  font-style: normal;
 }
 
 .null-margins{  /*Класс для обнуления отступов*/
@@ -121,7 +112,6 @@ img{
   color:#000000;
   text-decoration: none;
 }
-
 
 .navigation {
   display: flex;
