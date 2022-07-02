@@ -163,9 +163,11 @@ img{
   font-weight: 700;
   text-align: center;
   color: #ffffff;
-  text-decoration: none;
-  text-transform: uppercase;
   background-color: #82B3D3; /*Чаще всего встречается*/
+  text-decoration: none;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 .large-buttons{
