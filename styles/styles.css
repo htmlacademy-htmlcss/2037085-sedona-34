@@ -168,6 +168,7 @@ img{
   border: none;
   text-transform: uppercase;
   cursor: pointer;
+  display: inline-block;
 }
 
 .large-buttons{
@@ -414,10 +415,10 @@ img{
   min-width: 143px;
   margin: 0;
   padding: 0;
-  margin-top: 45px;
-  margin-bottom: 35px;
-  margin-left: 70px;
+  padding-top: 40px;
   margin-right: auto;
+  padding-bottom: 30px;
+  padding-left: 70px;
   list-style-type: none;
 }
 
@@ -426,18 +427,35 @@ img{
   height: 40px;
 }
 
+.icon-vkontakte{
+ padding-top: 13px;
+ padding-bottom: 13px;
+ padding-left: 12px;
+}
+
+.icon-telegram{
+ padding-top: 12px;
+ padding-bottom: 13px;
+}
+
+.icon-youtube{
+  padding-top: 12px;
+  padding-right: 13px;
+  padding-bottom: 12px;
+
+ }
+
+
 .logo-html-academy,
 .button-link-html{
   display: flex;
   width: 115px;
   height: 33px;
-  margin-top: 49px;
-  margin-bottom: 39px;
 }
 
 .button-link-html{
-  padding: 38px;
-  margin-right: 32px;  /*70 - 38 (зона клика)*/
+  padding: 49px 70px 38px 38px;
+
 }
 
 .footer-contacts-phone {
