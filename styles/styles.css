@@ -146,6 +146,30 @@ img{
   text-align: center;
   color: #000000;
   text-decoration: none;
+  position: relative;      /*Почему не выровнялось после этого?*/
+}
+
+.navigation-user .navigation-item:nth-child(1) .navigation-link{
+  background-image: url("../images/decorative-elements/search.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.navigation-user .navigation-item:nth-child(2) .navigation-link{
+  background-image: url("../images/decorative-elements/heart.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.search{
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+
+.heart{
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .logo-sedona{   /*Логотип в навигации*/
@@ -214,6 +238,27 @@ img{
   left: 372px;
   right: 372px;
   bottom: 83px;
+}
+
+.index-background {
+  background-image: url("../images/decorative-elements/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  width:1200px;
+  height: 487px;
+  }
+
+.index-background::after{
+  content: url("../images/decorative-elements/white-carved-element.svg");
+  width: 1200px;
+  height: 57px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  top: 72px;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 .advantages-text-capital{
@@ -292,16 +337,26 @@ img{
 .housing{         /*Блок непронумерованный*/
   background-color:#e6f0fa;
   margin: 0;
+  background-image: url("../images/decorative-elements/housing.svg");
+  background-repeat: no-repeat;
+  background-position: top 80px right 161px;
+
   }
 
 .meal{               /*Блок непронумерованный*/
   background-color: #ffffff;
   margin: 0;
+  background-image: url("../images/decorative-elements/food.svg");
+  background-repeat: no-repeat;
+  background-position: top 80px right 161px;
 }
 
 .souvenirs{         /*Блок непронумерованный*/
   background-color:#e6f0fa;
   margin: 0;
+  background-image: url("../images/decorative-elements/souvenirs.svg");
+  background-repeat: no-repeat;
+  background-position: top 80px right 161px;
 }
 
 .small-area{      /*Продолжение пронумерованного списка преимуществ*/
@@ -350,15 +405,6 @@ img{
   background-repeat: no-repeat;
   width:1200px;
   height: 411px;
-  }
-
-
-.index-background {
-  background-image: url("../images/decorative-elements/index-background.jpg");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-  width:1200px;
-  height: 487px;
   }
 
 .search-hotel{     /*Cекция с поиском гостиницы*/
@@ -451,6 +497,10 @@ img{
   display: flex;
   width: 115px;
   height: 33px;
+}
+
+.logo-html-academy{
+  display: block;
 }
 
 .button-link-html{
