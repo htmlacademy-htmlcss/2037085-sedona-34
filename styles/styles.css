@@ -445,6 +445,10 @@ img{
   padding-top: 93px;
 }
 
+.subscribe{
+  border-radius: 0px 10px 10px 0px;
+}
+
 .mailing{
   padding-top: 94px;
 }
@@ -560,6 +564,16 @@ img{
   padding-top: 57px;
   padding-left: 72px;
   text-align: left;
+}
+
+.first-cheap{
+  background-image: url("../images/decorative-elements/big-tick.svg");
+  background-repeat: no-repeat;
+  padding-top: 64px;
+  padding-left: 621px;
+  padding-right: 438px;
+  background-size: 11px 7px;
+  background-position: center right 97px;
 }
 
 .catalog-cards-hotels {       /*Контейнер с карточкамИ гостиниц*/
