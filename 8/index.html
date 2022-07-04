@@ -38,6 +38,9 @@
                 <span class="visually-hidden">
                   Нравится
                 </span>
+                <span class="green-circle text-white">
+                 12
+                </span>
               </a>
             </li>
             <li class="navigation-item">
@@ -134,8 +137,10 @@
             <div class="blurred-mountains">
               <p class="text-3xl text-white null-margins mailing">Подпишитесь на рассылку</p>
               <p class="text-xl text-white null-margins useful-info">Только полезная информация и никакого спама, <br> честное бойскаутское!</p>
-              <input type="text" name="Ваш e-mail">
-              <button class="large-buttons subscribe" type="submit">Подписаться</button>
+                <div class="form-alignment">
+                  <input class="e-mail null-margins" type="text" name="Ваш e-mail">
+                  <button class="large-buttons subscribe" type="submit">Подписаться</button>
+                </div>
             </div>
           </form>
         </div>
@@ -143,20 +148,21 @@
 
       <footer class="page-footer">
         <div class="page-footer-container">
-          <section>
+          <section class="footer-social">
             <ul class="footer-social-list null-margins">
               <li class="footer-social-item">
-                <a class="icon-vkontakte" href="https://vk.com/htmlacademy"></a>
+                <span class="visually-hidden">ВКонтакте</span>
+                <a class="footer-social-link footer-social-vk" href="https://vk.com/htmlacademy"></a>
               </li>
 
               <li class="footer-social-item">
                 <span class="visually-hidden">Телеграм</span>
-                <a class="icon-telegram" href="https://t.me/htmlacademy "></a>
+                <a class="footer-social-link footer-social-tg" href="https://t.me/htmlacademy "></a>
               </li>
 
               <li class="footer-social-item">
                 <span class="visually-hidden">Youtube</span>
-                <a class="icon-youtube" href="https://www.youtube.com/user/htmlacademyru"></a>
+                <a class="footer-social-link footer-social-ytb" href="https://www.youtube.com/user/htmlacademyru"></a>
               </li>
             </ul>
           </section>
@@ -164,7 +170,6 @@
               <address class="footer-contacts-phone">
                 <a class="phone-number" href="tel:+78128121212">+7(812)812-12-12</a>
               </address>
-
 
           <a class="button-link-html" href="https://htmlacademy.ru">
             <img class="logo-html-academy" src="images/content-images/logo-html-academy.svg" width="115" height="33" alt="Логотип html-academy.">

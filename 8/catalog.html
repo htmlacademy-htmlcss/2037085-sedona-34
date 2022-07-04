@@ -27,16 +27,19 @@
 
           <ul class="site-navigation navigation-user">
             <li class="navigation-item">
-              <a class="navigation-link" href="#">
+              <a class="navigation-link search" href="#">
                 <span class="visually-hidden">
                   Поиск
                 </span>
               </a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link" href="#">
+              <a class="navigation-link heart" href="#">
                 <span class="visually-hidden">
                   Нравится
+                </span>
+                <span class="green-circle text-white">
+                  12
                 </span>
               </a>
             </li>
@@ -57,7 +60,7 @@
               <h2 class="visually-hidden">Фильтры для выбора гостиницы</h2>
 
                   <fieldset class="text-white">
-                    <legend>Инфраструктура:</legend>
+                    <legend class="infrastructure">Инфраструктура:</legend>
                     <input id="swimming-pool" type="checkbox" name="swimming-pool" checked>
                     <label for="swimming-pool">Бассейн</label>
                     <input id="parking-space" type="checkbox" name="parking-space" checked>
@@ -66,7 +69,7 @@
                     <label for="wi-fi">Wi-Fi</label>
                  </fieldset>
                  <fieldset class="text-white">
-                   <legend>Тип жилья:</legend>
+                   <legend class="type-housing">Тип жилья:</legend>
                    <input id="Hotel" type="radio" checked name="type-of-house">
                    <label for="Hotel">Гостиница</label>
                    <input id="Motel" type="radio" name="type-of-house">
@@ -84,8 +87,8 @@
                </form>
             </div>
           </div>
-        <section class="sorting-hotels">
 
+        <section class="sorting-hotels">
           <h2 class="visually-hidden null-margins">Сортировка результатов поиска</h2>
             <p class="hotel-found text-3xl null-margins">Найдено гостиниц: 38</p>
 
@@ -117,11 +120,13 @@
 
                     <a class="hotel-details-link small-buttons brown-button" href="#">Подробнее</a>
                     <a class="hotel-book-link small-buttons" href="#">В избранное</a>
-
-                  <p class="hotel-stars stars-4 null-margins">
-                    <span class="visually-hidden">4 звезды</span>
-                  </p>
-                  <p class="hotel-rating-number text-base null-margins">Рейтинг: 8,5</p>
+                    <p class="hotel-stars null-margins">
+                      <span class="star"></span>
+                      <span class="star"></span>
+                      <span class="star"></span>
+                      <span class="star"></span>
+                    </p>
+                    <p class="hotel-rating-number text-base null-margins">Рейтинг: 8,5</p>
               </article>
 
               <article class="hotel-card">  <!-- Villas-at-Poco-Diablo-->
@@ -134,9 +139,11 @@
 
                     <a class="hotel-details-link small-buttons brown-button" href="#">Подробнее</a>
                     <a class="hotel-book-link small-buttons green-button" href="#">В избранном</a>
-
-                    <p class="hotel-stars stars-4 null-margins">
-                      <span class="visually-hidden">4 звезды</span>
+                    <p class="hotel-stars null-margins">
+                      <span class="star"></span>
+                      <span class="star"></span>
+                      <span class="star"></span>
+                      <span class="star"></span>
                     </p>
                     <p class="hotel-rating-number text-base null-margins">Рейтинг: 9,2</p>
               </article>
@@ -151,11 +158,12 @@
 
                       <a class="hotel-details-link small-buttons brown-button" href="#">Подробнее</a>
                       <a class="hotel-book-link small-buttons" href="#">В избранное</a>
-
-                    <p class="hotel-stars stars-4 null-margins">
-                      <span class="visually-hidden">3 звезды</span>
-                    </p>
-                    <p class="hotel-rating-number text-base null-margins">Рейтинг: 6,9</p>
+                      <p class="hotel-stars null-margins">
+                        <span class="star"></span>
+                        <span class="star"></span>
+                        <span class="star"></span>
+                      </p>
+                      <p class="hotel-rating-number text-base null-margins">Рейтинг: 6,9</p>
               </article>
 
               <article class="hotel-card"> <!--GreenTree-Inn -->
@@ -168,11 +176,11 @@
 
                       <a class="hotel-details-link small-buttons brown-button" href="#">Подробнее</a>
                       <a class="hotel-book-link small-buttons" href="#">В избранное</a>
-
-                  <p class="hotel-stars stars-4 null-margins">
-                    <span class="visually-hidden">2 звезды</span>
-                  </p>
-                  <p class="hotel-rating-number text-base">Рейтинг: 5,0</p>
+                      <p class="hotel-stars null-margins">
+                        <span class="star"></span>
+                        <span class="star"></span>
+                      </p>
+                      <p class="hotel-rating-number text-base">Рейтинг: 5,0</p>
               </article>
             </div>
 
@@ -203,28 +211,31 @@
             <form class="newsletter-subscription-form" action="https://echo.htmlacademy.ru/" method="post">
               <p class="text-3xl null-margins mailing">Подпишитесь на рассылку</p>
               <p class="text-xl null-margins useful-info">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
-              <input type="text" name="Ваш e-mail">
-              <button class="large-buttons subscribe" type="submit">Подписаться</button>
+              <div class="form-alignment">
+                <input class="e-mail null-margins" type="text" name="Ваш e-mail">
+                <button class="large-buttons subscribe" type="submit">Подписаться</button>
+              </div>
             </form>
           </div>
       </main>
 
       <footer class="page-footer">
         <div class="page-footer-container">
-          <section>
+          <section class="footer-social">
             <ul class="footer-social-list null-margins">
               <li class="footer-social-item">
-                <a class="button" href="https://vk.com/htmlacademy"></a>
+                <span class="visually-hidden">ВКонтакте</span>
+                <a class="footer-social-link footer-social-vk" href="https://vk.com/htmlacademy"></a>
               </li>
 
               <li class="footer-social-item">
                 <span class="visually-hidden">Телеграм</span>
-                <a class="button" href="https://t.me/htmlacademy "></a>
+                <a class="footer-social-link footer-social-tg" href="https://t.me/htmlacademy "></a>
               </li>
 
               <li class="footer-social-item">
                 <span class="visually-hidden">Youtube</span>
-                <a class="button" href="https://www.youtube.com/user/htmlacademyru"></a>
+                <a class="footer-social-link footer-social-ytb" href="https://www.youtube.com/user/htmlacademyru"></a>
               </li>
             </ul>
           </section>
