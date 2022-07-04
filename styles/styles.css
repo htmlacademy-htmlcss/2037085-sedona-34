@@ -623,9 +623,26 @@ img{
   background-repeat: no-repeat;
 }
 
-.type-housing{
- /*Кружочек нужно нарисовать с помощью ЦСС?*/
-}
+.type-housing{ /*Кружочек нужно было нарисовать с помощью ЦСС?*/
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #CDCDCD;
+  position: relative;
+  }
+
+.type-housing::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #3F5E72;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  }
+
 
 
 .hotel-found {
