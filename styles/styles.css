@@ -146,13 +146,14 @@ img{
   text-align: center;
   color: #000000;
   text-decoration: none;
-  position: relative;      /*Почему не выровнялось после этого?*/
 }
 
 .navigation-user .navigation-item:nth-child(1) .navigation-link{
   background-image: url("../images/decorative-elements/search.svg");
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
+  top: 10px;
 }
 
 
@@ -160,6 +161,8 @@ img{
   background-image: url("../images/decorative-elements/heart.svg");
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
+  top: 10px;
 }
 
 .search{
@@ -446,7 +449,7 @@ img{
 }
 
 .subscribe{
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 0 10px 10px 0;
 }
 
 .mailing{
@@ -477,22 +480,30 @@ img{
   height: 40px;
 }
 
-.icon-vkontakte{
+.footer-social-link{
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer-social-vk{
+ background-image: url("../images/decorative-elements/vkontakte.svg");
  padding-top: 13px;
  padding-bottom: 13px;
  padding-left: 12px;
 }
 
-.icon-telegram{
+.footer-social-tg{
+ background-image: url("../images/decorative-elements/telegram.svg");
  padding-top: 12px;
  padding-bottom: 13px;
 }
 
-.icon-youtube{
+.footer-social-ytb{
+  background-image: url("../images/decorative-elements/youtube.svg");
   padding-top: 12px;
   padding-right: 13px;
   padding-bottom: 12px;
-
  }
 
 
@@ -547,6 +558,8 @@ img{
 .bread-crumbs {
   font-size: 18px;
   line-height: 21px;
+  background-image: url("../images/decorative-elements/white-house.svg");
+  background-repeat: no-repeat;
 }
 
 .catalog-filter{
@@ -559,6 +572,20 @@ img{
  background-size: 100% auto;
  background-repeat: no-repeat;
 }
+
+.sorting-hotels{
+ list-style: none;
+}
+
+.infrastructure{
+  background-image: url("../images/decorative-elements/check-mark.svg");
+  background-repeat: no-repeat;
+}
+
+.type-housing{
+ /*Кружочек нужно нарисовать с помощью ЦСС?*/
+}
+
 
 .hotel-found {
   padding-top: 57px;
