@@ -156,6 +156,7 @@ img{
   text-align: center;
   color: #000000;
   text-decoration: none;
+  position: relative;
 }
 
 .navigation-user .navigation-item:nth-child(1) .navigation-link{
@@ -618,6 +619,22 @@ img{
  list-style: none;
 }
 
+.select-control{
+  position: absolute;
+  width: 290px;
+  height: 49px;
+  left: 601px;
+  top: 523px;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding: 14px 20px;
+  gap: 94px;
+}
+
 .infrastructure{
   background-image: url("../images/decorative-elements/check-mark.svg");
   background-repeat: no-repeat;
@@ -643,8 +660,6 @@ img{
   transform: translate(-50%, -50%);
   }
 
-
-
 .hotel-found {
   padding-top: 57px;
   padding-left: 72px;
@@ -660,6 +675,30 @@ img{
   background-size: 11px 7px;
   background-position: center right 97px;
 }
+
+.button-sorting-hotels{
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 969px;
+  top: 523px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  gap: 8px;
+}
+
+.show-cards{
+
+}
+
+.show-card,
+.show-list{
+
+}
+
 
 .catalog-cards-hotels {       /*Контейнер с карточкамИ гостиниц*/
   display: grid;
