@@ -66,7 +66,7 @@ img{
   line-height: 78px;
 }
 
-.text-3xl{   /*text-xxl*/
+.text-3xl{
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -76,18 +76,12 @@ img{
 }
 
 .text-2xl{ /*Используется в названиях преимуществ*/
-  font-weight: 700;     /*text-xl*/
+  font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
   text-align: center;
   color:#000000;
-}
-
-.text-base{    /*Рейтинг отелей*/
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
 }
 
 .text-xl{ /*Призывающий текствнутри формы и блоков*/ /*calling-text*/
@@ -96,7 +90,13 @@ img{
   line-height: 26px;
 }
 
-.text-name-hotels{ /*Используется в названиях гостиниц*/   /*установить класс после текст 2хл выше*/
+.text-base{    /*Рейтинг отелей*/
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.text-name-hotels{ /*Используется в названиях гостиниц*/
   text-align: left;
   font-style: normal;
   text-transform: none;
@@ -482,7 +482,7 @@ img{
  height: 60px;
  border: none;
  background: #F2F2F2;
- border-radius: 0px 10px 10px 0px;
+ border-radius: 0 10px 10px 0;
  transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
@@ -690,6 +690,20 @@ img{
   border-radius: 4px;
   padding: 9px 22px 8px 23px;
   margin: 0;
+ }
+
+ .hotel-stars{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+ }
+
+ .star{
+  background-image: url("../images/decorative-elements/star.svg");
+  width: 18px;
+  height: 17px;
+  padding-right: 6px;
+  background-repeat: space repeat;
  }
 
 /*Пагинация*/
