@@ -212,8 +212,7 @@ img{
   margin-bottom: 14px;
 }
 
-.large-buttons,
-.small-buttons{
+.button{
   font-weight: 700;
   text-align: center;
   color: #ffffff;
