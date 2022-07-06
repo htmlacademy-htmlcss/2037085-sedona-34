@@ -163,6 +163,10 @@ img{
   position: relative;
 }
 
+.underlined-links:hover{
+  border-bottom: 2px solid #756257;
+}
+
 .navigation-user .navigation-item:nth-child(1) .navigation-link{
   background-image: url("../images/decorative-elements/search.svg");
   background-repeat: no-repeat;
@@ -806,14 +810,15 @@ img{
   width: 386px;
   display: flex;
   justify-content: space-between;
-  padding-top: 35px;
-  padding-right: 71px;
   padding-left: 270px;
   margin: 0;
+  margin-left: auto;
 }
 
 .hotels-on-the-page{
-  padding-right: 51px;
+  color: #000000;
+  padding-top: 15px;
+  padding-bottom: 12px;
 }
 
 .select-quantity-card{
@@ -821,12 +826,16 @@ img{
   flex-direction: row;
   align-items: center;
   padding: 14px 20px;
+  padding-right: 98px;
   gap: 94px;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
+  background-image: url("../images/decorative-elements/big-tick.svg");
+  background-repeat: no-repeat;
+  background-position: right 20px top 50% left 0;
+  background-size: 12px 7px;
 }
 
 .number-card-in-select{
   padding-left: 20px;
-  padding-right: 98px;
 }
