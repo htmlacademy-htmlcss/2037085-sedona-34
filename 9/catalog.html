@@ -39,13 +39,13 @@
                 <span class="visually-hidden">
                   Нравится
                 </span>
-                <span class="green-circle text-white">
+                <span class="green-circle text-white text-in-circle">
                   12
                 </span>
               </a>
             </li>
             <li class="navigation-item">
-              <a class="navigation-link small-buttons brown-button desire-button" href="#">Хочу сюда!</a>
+              <a class="navigation-link button small-buttons brown-button desire-button" href="#">Хочу сюда!</a>
             </li>
           </ul>
         </nav>
@@ -80,10 +80,10 @@
                  </fieldset>
 
                     <button class="fb-icon" type="button">
-                      <span class="visually-hidden">Применить.</span>
+                      <span class="button">Применить.</span>
                     </button>
                     <button class="fb-icon" type="button">
-                      <span class="visually-hidden">Сбросить.</span>
+                      <span class="button">Сбросить.</span>
                     </button>
                </form>
             </div>
@@ -136,9 +136,10 @@
                     <span class="hotel-type">Гостиница</span>
                     <span class="hotel-price">От 4000 ₽</span>
 
-                    <a class="hotel-details-link small-buttons brown-button" href="#">Подробнее</a>
-                    <a class="hotel-book-link small-buttons" href="#">В избранное</a>
+                    <a class="hotel-details-link button small-buttons brown-button" href="#">Подробнее</a>
+                    <a class="hotel-book-link button small-buttons" href="#">В избранное</a>
                     <p class="hotel-stars null-margins">
+                      <span class="visually-hidden">Четыре звезды</span>
                       <span class="star"></span>
                       <span class="star"></span>
                       <span class="star"></span>
@@ -155,9 +156,10 @@
                     <span class="hotel-type">Гостиница</span>
                     <span class="hotel-price">От 5000 ₽</span>
 
-                    <a class="hotel-details-link small-buttons brown-button" href="#">Подробнее</a>
-                    <a class="hotel-book-link small-buttons green-button" href="#">В избранном</a>
+                    <a class="hotel-details-link button small-buttons brown-button" href="#">Подробнее</a>
+                    <a class="hotel-book-link button small-buttons green-button" href="#">В избранном</a>
                     <p class="hotel-stars null-margins">
+                      <span class="visually-hidden">Четыре звезды</span>
                       <span class="star"></span>
                       <span class="star"></span>
                       <span class="star"></span>
@@ -174,9 +176,10 @@
                       <span class="hotel-type">Гостиница</span>
                       <span class="hotel-price">От 2500 ₽</span>
 
-                      <a class="hotel-details-link small-buttons brown-button" href="#">Подробнее</a>
-                      <a class="hotel-book-link small-buttons" href="#">В избранное</a>
+                      <a class="hotel-details-link button small-buttons brown-button" href="#">Подробнее</a>
+                      <a class="hotel-book-link button small-buttons" href="#">В избранное</a>
                       <p class="hotel-stars null-margins">
+                        <span class="visually-hidden">Три звезды</span>
                         <span class="star"></span>
                         <span class="star"></span>
                         <span class="star"></span>
@@ -192,9 +195,10 @@
                       <span class="hotel-type">Гостиница</span>
                       <span class="hotel-price">От 1500 ₽</span>
 
-                      <a class="hotel-details-link small-buttons brown-button" href="#">Подробнее</a>
-                      <a class="hotel-book-link small-buttons" href="#">В избранное</a>
+                      <a class="hotel-details-link button small-buttons brown-button" href="#">Подробнее</a>
+                      <a class="hotel-book-link button small-buttons" href="#">В избранное</a>
                       <p class="hotel-stars null-margins">
+                        <span class="visually-hidden">Две звезды</span>
                         <span class="star"></span>
                         <span class="star"></span>
                       </p>
@@ -226,12 +230,21 @@
             </ul>
            </div>
 
+           <div class="display-selection">
+             <label class="hotels-on-the-page">Гостиниц на странице:</label>
+              <select class="select-quantity-card" aria-label="Количество карточек, выводимых на страницу">
+                <option class="number-card-in-select" value="cheap">4</option>
+                <option value="expensive">8</option> <!-- Или не нужно, если не отрисовано в стайлгайде?-->
+              </select>
+           </div>
+
+
             <form class="newsletter-subscription-form" action="https://echo.htmlacademy.ru/" method="post">
               <p class="text-3xl null-margins mailing">Подпишитесь на рассылку</p>
               <p class="text-xl null-margins useful-info">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
               <div class="form-alignment">
-                <input class="e-mail null-margins" type="text" name="Ваш e-mail">
-                <button class="large-buttons subscribe" type="submit">Подписаться</button>
+                <input class="e-mail null-margins" type="text" name="Ваш e-mail" value="Ваш e-mail">
+                <button class="button large-buttons subscribe" type="submit">Подписаться</button>
               </div>
             </form>
           </div>
