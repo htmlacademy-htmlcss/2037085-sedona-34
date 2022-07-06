@@ -138,6 +138,7 @@
                     <a class="hotel-details-link button small-buttons brown-button" href="#">Подробнее</a>
                     <a class="hotel-book-link button small-buttons" href="#">В избранное</a>
                     <p class="hotel-stars null-margins">
+                      <span class="visually-hidden">Четыре звезды</span>
                       <span class="star"></span>
                       <span class="star"></span>
                       <span class="star"></span>
@@ -157,6 +158,7 @@
                     <a class="hotel-details-link button small-buttons brown-button" href="#">Подробнее</a>
                     <a class="hotel-book-link button small-buttons green-button" href="#">В избранном</a>
                     <p class="hotel-stars null-margins">
+                      <span class="visually-hidden">Четыре звезды</span>
                       <span class="star"></span>
                       <span class="star"></span>
                       <span class="star"></span>
@@ -176,6 +178,7 @@
                       <a class="hotel-details-link button small-buttons brown-button" href="#">Подробнее</a>
                       <a class="hotel-book-link button small-buttons" href="#">В избранное</a>
                       <p class="hotel-stars null-margins">
+                        <span class="visually-hidden">Три звезды</span>
                         <span class="star"></span>
                         <span class="star"></span>
                         <span class="star"></span>
@@ -194,6 +197,7 @@
                       <a class="hotel-details-link button small-buttons brown-button" href="#">Подробнее</a>
                       <a class="hotel-book-link button small-buttons" href="#">В избранное</a>
                       <p class="hotel-stars null-margins">
+                        <span class="visually-hidden">Две звезды</span>
                         <span class="star"></span>
                         <span class="star"></span>
                       </p>
@@ -224,6 +228,15 @@
               </li>
             </ul>
            </div>
+
+           <div class="display-selection">
+             <label class="hotels-on-the-page">Гостиниц на странице:</label>
+              <select class="select-quantity-card" aria-label="Количество карточек, выводимых на страницу">
+                <option class="number-card-in-select" value="cheap">4</option>
+                <option value="expensive">8</option> <!-- Или не нужно, если не отрисовано в стайлгайде?-->
+              </select>
+           </div>
+
 
             <form class="newsletter-subscription-form" action="https://echo.htmlacademy.ru/" method="post">
               <p class="text-3xl null-margins mailing">Подпишитесь на рассылку</p>

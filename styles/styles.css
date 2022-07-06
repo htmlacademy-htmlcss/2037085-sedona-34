@@ -614,14 +614,12 @@ img{
 
 .sorting-hotels{
  list-style: none;
+ display: flex;
+ align-items: center;
+
 }
 
 .select-control{
-  position: absolute;
-  width: 290px;
-  height: 49px;
-  left: 601px;
-  top: 523px;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
   display: flex;
@@ -630,6 +628,31 @@ img{
   align-items: center;
   padding: 14px 20px;
   gap: 94px;
+  margin-top: 50px;
+  margin-left: 191px;
+}
+
+.button-sorting-hotels{
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0;
+  gap: 8px;
+  margin-top: 50px;
+  margin-right: 71px;
+  margin-left: 78px;
+}
+
+.show-cards{
+
+}
+
+.show-card,
+.show-list{
+
 }
 
 .infrastructure{
@@ -673,30 +696,6 @@ img{
   background-position: center right 97px;
 }
 
-.button-sorting-hotels{
-  position: absolute;
-  width: 48px;
-  height: 48px;
-  left: 969px;
-  top: 523px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0;
-  gap: 8px;
-}
-
-.show-cards{
-
-}
-
-.show-card,
-.show-list{
-
-}
-
-
 .catalog-cards-hotels {       /*Контейнер с карточкамИ гостиниц*/
   display: grid;
   width: 1200px;
@@ -705,6 +704,7 @@ img{
   padding: 0 73px;
   margin:0 auto;
   box-sizing: border-box;
+  border-bottom: 1px solid #E6E6E6;
 }
 
 .hotel-card{    /*КарточкА гостиницы*/
@@ -800,4 +800,33 @@ img{
   border-radius: 4px;
   background-color: #F2F2F2;
   color: #000000;
+}
+
+.display-selection{
+  width: 386px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+  padding-right: 71px;
+  padding-left: 270px;
+  margin: 0;
+}
+
+.hotels-on-the-page{
+  padding-right: 51px;
+}
+
+.select-quantity-card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 14px 20px;
+  gap: 94px;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+}
+
+.number-card-in-select{
+  padding-left: 20px;
+  padding-right: 98px;
 }
