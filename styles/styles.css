@@ -181,39 +181,31 @@ img {
   background: transparent;
 }
 
-.navigation-icon{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  fill: #000000;
-}
-
 .navigation-link-user:hover{
-  color: rgba(255, 255, 255, 0.3);
+  color: #615048;
   border-bottom: 2px solid #756257;
+  border-radius: 4px;
 }
 
 .navigation-link-user:active  {
-  color: rgba(255, 255, 255, 0.3);
-  border-bottom: 2px solid #756257;
+  color: #756157;
 }
 
 .navigation-link-user:focus  {
-  color: rgba(255, 255, 255, 0.3);
-  outline: #756157;
-  background: transparent;
+  color: #756257;
+  outline: 2px solid #491213;
+  outline-style: dashed;
 }
 
 .navigation-link-user{
   position: relative;
-  display: block;
-  width: 18px;
-  height: 18px;
-  padding: 31px 24px;
-  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  width: 41px;
+  height: 62px;
+  border-radius: 5px;
+  color: #000000;
 }
 
 .green-circle {
@@ -222,7 +214,7 @@ img {
   background: #7DB54F;
   border-radius: 50%;
   position: absolute;
-  right: 0;
+  right: -2px;
   top: 15px;
   z-index: 1;
 }
