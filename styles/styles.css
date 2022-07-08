@@ -677,28 +677,31 @@ img {
 
 .sorting-hotels {
  display: flex;
- max-width: 1200px;
+ width: 1057px;
  margin-left: 72px;
  margin-right: 71px;
  padding-top: 50px;
  align-items: center;
+ justify-content: space-between;
 }
 
-.hotel-found {
+.hotels-found {
   padding-right: 191px;
   text-align: left;
+  display: block;
 }
 
 .select-control {
+  position: relative;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
   display: flex;
+  min-width: 290px;
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
   padding: 14px 20px;
   gap: 94px;
-  margin-right: 78px;
   background-image: url("../images/decorative-elements/big-tick.svg");
   background-repeat: no-repeat;
   background-position: right 20px top 50%;
@@ -708,18 +711,8 @@ img {
   appearance: none;
 }
 
-.first-cheap,
-.first-dear {
-  padding-right: 97px;
-  padding-left: 20px;
-}
-
-.sorting-type {
-
-}
-
-.button-sorting-hotels {
-  width: 48px;
+.button-view-mode {
+  min-width: 160px;
   height: 48px;
   display: flex;
   justify-content: space-between;
@@ -730,13 +723,28 @@ img {
   margin-left: 78px;
 }
 
-.show-cards{
-
+.button-mode-active{
+  border-radius: 4px;
+  border: 2px solid #000000;
+  outline: none;
 }
 
-.show-card,
-.show-list{
+.button-mode svg{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  fill: #000000;
+  margin: auto;
+}
 
+.button-mode {
+  position: relative;
+  min-width: 48px;
+  min-height: 48px;
+  border: 2px solid #e6e6e6;
+  border-radius: 4px;
 }
 
 .infrastructure {
