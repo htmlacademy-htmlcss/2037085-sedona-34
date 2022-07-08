@@ -592,15 +592,21 @@ img {
   padding-left: 12px;
 }
 
-.footer-social-vk, footer-social-tg, footer-social-ytb:hover{
+.footer-social-vk:hover
+.footer-social-tg:hover
+.footer-social-ytb:hover{
   background-color: #68A2CA;
 }
 
-.footer-social-vk, footer-social-tg, footer-social-ytb:active{
+.footer-social-vk:active
+.footer-social-tg:active
+.footer-social-ytb:active{
   background-color: #eae3ef;
 }
 
-.footer-social-vk, footer-social-tg, footer-social-ytb:focus{
+.footer-social-vk:focus
+.footer-social-tg:focus
+.footer-social-ytb:focus{
   background-color: #68A2CA;
 }
 
