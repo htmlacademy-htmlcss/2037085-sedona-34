@@ -644,6 +644,18 @@ img {
   font-style: normal;
 }
 
+.phone-number:hover{
+  color: #756157;
+}
+
+.phone-number:active{
+  color: #d6d0d0;
+}
+
+.phone-number:focus{
+  color: #756157;
+}
+
 /*Страница каталога*/
 .blurred-mountains {
   background-image: url("../images/decorative-elements/blurred-mountains.jpg");
