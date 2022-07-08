@@ -571,42 +571,28 @@ img {
   list-style-type: none;
 }
 
-.footer-social-item {
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 47px;
   height: 40px;
 }
 
-.footer-social-link {
-  display: block;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 12px;
+.footer-social-link svg{
+  fill: #83B3D3;
 }
 
-.footer-social-vk:hover
-.footer-social-tg:hover
-.footer-social-ytb:hover{
-  background-color: #68A2CA;
+.footer-social-link:hover svg {
+  fill: #68A2CA;
 }
 
-.footer-social-vk:active
-.footer-social-tg:active
-.footer-social-ytb:active{
-  background-color: #eae3ef;
+.footer-social-link:active svg{
+  fill: #eae3ef;
 }
 
-.footer-social-vk:focus
-.footer-social-tg:focus
-.footer-social-ytb:focus{
-  background-color: #68A2CA;
-}
-
-.footer-social-vk,
-.footer-social-tg,
-.footer-social-ytb {
-  fill: #83b3d3;
+.footer-social-link:focus svg{
+  fill: #68A2CA;
 }
 
 .logo-html-academy-svg {
