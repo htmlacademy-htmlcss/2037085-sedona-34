@@ -254,6 +254,18 @@ img {
   display: inline-block;
 }
 
+.button:hover {
+  background-color: #68A2CA;
+}
+
+.button:active {
+  background-color: #82B3D3;
+}
+
+.button:focus {
+  background-color: #68A2CA;
+}
+
 .large-buttons {
   font-size: 20px;
   line-height: 36px;
@@ -273,10 +285,33 @@ img {
   background-color: #756157;
 }
 
+.brown-button:hover {
+  background-color: #615048;
+}
+
+.brown-button:active {
+  background-color: #756157;
+}
+
+.brown-button:focus {
+  background-color: #615048;
+}
+
 .green-button {
   background-color: #7DB54F;
 }
 
+.green-button:hover {
+  background-color: #6C9E42;
+}
+
+.green-button:active {
+  background-color: #7DB54F;
+}
+
+.green-button:focus {
+  background-color: #6C9E42;
+}
 
 .main-container {
   flex-grow: 1;
