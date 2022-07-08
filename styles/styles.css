@@ -609,21 +609,22 @@ img {
   padding-bottom: 12px;
  }
 
-
-.logo-html-academy,
-.button-link-html {
-  display: flex;
-  width: 115px;
-  height: 33px;
+.logo-html-academy-svg {
+  fill: #000000;
+  margin-right: 70px;
+  margin-top: 49px;
 }
 
-.logo-html-academy {
-  display: block;
+.logo-html-academy-svg:hover {
+  fill: #756157;
 }
 
-.button-link-html {
-  padding: 49px 70px 38px 38px;
+.logo-html-academy-svg:active {
+  fill: #d6d0d0;
+}
 
+.logo-html-academy-svg:focus {
+  fill: #756157;
 }
 
 .footer-contacts-phone {
