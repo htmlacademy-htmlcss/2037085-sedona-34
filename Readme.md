@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Наталья Лягина](https://up.htmlacademy.ru/htmlcss/34/user/2037085).
-* Наставник: [Дмитрий Гуляев](https://htmlacademy.ru/profile/dima).
+* Наставник: [Иван Кривонос](https://htmlacademy.ru/profile/id1311037).
 
 ---
 
