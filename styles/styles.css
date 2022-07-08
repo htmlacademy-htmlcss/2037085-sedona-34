@@ -399,8 +399,8 @@ img {
 }
 
 .background-blue {
- background-color: #82B3D3;
- box-sizing: border-box;
+  background-color: #82B3D3;
+  box-sizing: border-box;
 }
 
 .real-town {      /*Широкий блок, включающий в себя описание и картинку*/
@@ -773,7 +773,6 @@ img {
   padding: 0 73px;
   margin:0 auto;
   box-sizing: border-box;
-  border-bottom: 1px solid #E6E6E6;
 }
 
 .hotel-card {    /*КарточкА гостиницы*/
@@ -794,14 +793,14 @@ img {
   margin-bottom: 16px;
 }
 
-.hotel-type
-.hotel-details-link
+.hotel-type,
+.hotel-details-link,
 .hotel-stars {
   grid-column: 1/2;
 }
 
-.hotel-price
-.hotel-book-link
+.hotel-price,
+.hotel-book-link,
 .hotel-rating-number {
   grid-column: 2/3;
 }
@@ -829,18 +828,34 @@ img {
  }
 
 /*Пагинация*/
+
+.pagination-container::before {
+  position: absolute;
+  top: -30px;
+  width: 1055px;
+  height: 1px;
+  content: "";
+  background-color: #e6e6e6;
+}
+
 .pagination-container {
+  position: relative;
   display: flex;
-  padding: 25px;
+  width: 1200px;
   color: #ffffff;
-  padding-left: 73px;
+  margin: 30px 72px 0 72px;
+  padding: 0;
 }
 
 .pagination {
   display: flex;
-  margin: 0;
+  justify-content: flex-start;
   padding: 0;
   list-style-type: none;
+  min-width: 370px;
+  margin: 0;
+  margin-right: 270px;
+  align-items: center;
 }
 
 .pagination-item {
@@ -850,8 +865,8 @@ img {
 .pagination-link {
   display: block;
   box-sizing: border-box;
-  width: 60px;
-  height: 60px;
+  min-width: 60px;
+  min-height: 60px;
   line-height: 36px;
   font-size: 20px;
   font-weight: 700;
@@ -865,34 +880,32 @@ img {
 }
 
 .pagination-current {
-  border: 1px solid #82B3D3;
   border-radius: 4px;
   background-color: #F2F2F2;
   color: #000000;
-}
-
-.display-selection {
-  width: 386px;
-  display: flex;
-  justify-content: space-between;
-  padding-left: 270px;
-  margin: 0;
-  margin-left: auto;
+  outline: none;
 }
 
 .hotels-on-the-page {
   color: #000000;
-  padding-top: 15px;
-  padding-bottom: 12px;
+  display: block;
+  width: 175px;
+  text-align: left;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  margin-right: 51px;
 }
 
 .select-quantity-card {
   display: flex;
   flex-direction: row;
   align-items: center;
+  min-width: 160px;
   padding: 14px 20px;
-  padding-right: 98px;
-  gap: 94px;
+  padding-left: 17px;
+  padding-right: 40px;
+  margin-right: auto;
+  margin-top: 5px;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
   background-image: url("../images/decorative-elements/big-tick.svg");
