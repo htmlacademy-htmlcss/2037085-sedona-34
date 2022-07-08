@@ -587,27 +587,28 @@ img {
   display: block;
   background-repeat: no-repeat;
   background-position: center;
-}
-
-.footer-social-vk {
- background-image: url("../images/decorative-elements/vkontakte.svg");
- padding-top: 13px;
- padding-bottom: 13px;
- padding-left: 12px;
-}
-
-.footer-social-tg {
- background-image: url("../images/decorative-elements/telegram.svg");
- padding-top: 12px;
- padding-bottom: 13px;
-}
-
-.footer-social-ytb {
-  background-image: url("../images/decorative-elements/youtube.svg");
   padding-top: 12px;
-  padding-right: 13px;
   padding-bottom: 12px;
- }
+  padding-left: 12px;
+}
+
+.footer-social-vk, footer-social-tg, footer-social-ytb:hover{
+  background-color: #68A2CA;
+}
+
+.footer-social-vk, footer-social-tg, footer-social-ytb:active{
+  background-color: #eae3ef;
+}
+
+.footer-social-vk, footer-social-tg, footer-social-ytb:focus{
+  background-color: #68A2CA;
+}
+
+.footer-social-vk,
+.footer-social-tg,
+.footer-social-ytb {
+  fill: #83b3d3;
+}
 
 .logo-html-academy-svg {
   fill: #000000;
