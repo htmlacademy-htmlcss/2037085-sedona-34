@@ -720,32 +720,89 @@ img {
   align-items: center;
   padding: 0;
   gap: 8px;
-  margin-left: 78px;
+  margin-left: 76px;
 }
 
-.button-mode-active{
+
+.button-mode-table,
+.button-mode-slideshow,
+.button-mode-list{
+  position: relative;
+  min-width: 48px;
+  min-height: 48px;
+  border: 2px solid  #E5E5E5;
+  border-radius: 4px;
+}
+
+.button-mode-table{
+  background-image: url("../images/decorative-elements/icon-table.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 14px;
+}
+
+.button-mode-slideshow{
+  background-image: url("../images/decorative-elements/icon-slideshow.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 14px;
+}
+
+.button-mode-list{
+  background-image: url("../images/decorative-elements/icon-list.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px 14px;
+}
+
+.button-mode-table:hover {
+  border: 2px solid #000000;
+  border-radius: 4px;
+}
+
+.button-mode-slideshow:hover {
+  border: 2px solid #000000;
+  border-radius: 4px;
+}
+
+.button-mode-list:hover {
+  border: 2px solid #000000;
+  border-radius: 4px;
+}
+
+.button-mode-table:active {
   border-radius: 4px;
   border: 2px solid #000000;
   outline: none;
 }
 
-.button-mode svg{
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  fill: #000000;
-  margin: auto;
+.button-mode-slideshow:active {
+  border-radius: 4px;
+  border: 2px solid #000000;
+  outline: none;
 }
 
-.button-mode {
-  position: relative;
-  min-width: 48px;
-  min-height: 48px;
-  border: 2px solid #e6e6e6;
+.button-mode-list:active {
+  border-radius: 4px;
+  border: 2px solid #000000;
+  outline: none;
+}
+
+.button-mode-table:focus {
+  outline: 2px solid #68A2CA;
   border-radius: 4px;
 }
+
+.button-mode-slideshow:focus {
+  outline: 2px solid #68A2CA;
+  border-radius: 4px;
+}
+
+.button-mode-list:focus {
+  outline: 2px solid #68A2CA;
+  border-radius: 4px;
+}
+
 
 .infrastructure {
   background-image: url("../images/decorative-elements/check-mark.svg");
