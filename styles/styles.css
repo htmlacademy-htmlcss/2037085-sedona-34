@@ -1257,7 +1257,7 @@ img {
 .pagination-container::before {
   position: absolute;
   top: -30px;
-  width: 1055px;
+  width: 1200px;
   height: 1px;
   content: "";
   background-color: #e6e6e6;
@@ -1268,7 +1268,7 @@ img {
   display: flex;
   width: 1200px;
   color: #ffffff;
-  margin: 30px 72px 0 72px;
+  margin: 30px 71px 0 77px;
   padding: 0;
 }
 
@@ -1348,11 +1348,12 @@ img {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: end;
   min-width: 160px;
   padding: 14px 20px;
   padding-left: 17px;
   padding-right: 40px;
-  margin-right: auto;
+  margin-right: 0;
   margin-top: 5px;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
