@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: > 2% and last 1 version
+*/
+
 @font-face {
   font-family: "PT Sans";
   font-style: normal;
@@ -42,7 +49,6 @@ body {
 img {
   max-width: 100%;
   object-fit: cover;
-  object-position: center;
 }
 
 .visually-hidden {
@@ -183,7 +189,7 @@ img {
 
 .navigation-link-user:hover{
   color: #615048;
-  border-bottom: 2px solid #756257;
+  border-bottom: 2px solid transparent;
   border-radius: 4px;
 }
 
@@ -295,7 +301,6 @@ img {
 
 .green-button:hover {
   background-color: #6C9E42;
-  color: rgba(255, 255, 255, 0.3);
 }
 
 .green-button:active {
@@ -338,7 +343,7 @@ img {
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
-  top: 72px;
+  top: 73px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -720,23 +725,25 @@ img {
 
 .filter {
   display: flex;
+  min-width: 1060px;
   margin-left: 72px;
   margin-right: 72px;
-  margin-top: 45px;
+  margin-top: 40px;
   padding-left: 0;
   justify-content: space-between;
 }
 
 .catalog-filter {
   display: flex;
-  min-width: 1060px;
+  justify-content: space-between;
 }
 
 .catalog-filter-group {
   margin: 0;
   padding: 0;
+  padding-right: 3px;
   border: none;
-  margin-right: 67px;
+  margin-right: 70px;
 }
 
 .catalog-filter-list {
@@ -751,6 +758,7 @@ img {
 
 .catalog-filter-items {
   margin-bottom: 13px;
+  cursor: pointer;
 }
 
 .catalog-filter-title {
@@ -789,6 +797,7 @@ img {
 
 .infrastructure-input[type="checkbox"]:hover + .infrastructure-mark {
   background-color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
 }
 
 .infrastructure-input[type="checkbox"]:checked + .infrastructure-mark {
@@ -829,6 +838,7 @@ img {
 
 .type-home-input[type="radio"]:hover + .type-home-mark {
   background-color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
 }
 
 .type-home-input[type="radio"]:checked + .type-home-mark::after {
@@ -845,8 +855,8 @@ img {
 /*Ползунок*/
 .catalog-filter-group-price {
   width: 287px;
-  margin-right: 81px;
-  margin-left: 98px;
+  margin-right: 70px;
+  margin-left: 106px;  /*Отступ всего 176. 1200-70-70-365-519. А у блоков левых марджины по 70*/
 }
 
 .range-scale {
@@ -975,7 +985,8 @@ img {
 
 .range-input::-webkit-outer-spin-button,
 .range-input::-webkit-inner-spin-button {
-  appearance: none;
+  -webkit-appearance: none;
+          appearance: none;
   margin: 0;
 }
 
@@ -1086,9 +1097,21 @@ img {
   background-repeat: no-repeat;
   background-position: right 20px top 50%;
   background-size: 12px 7px;
-  -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
+}
+
+.select-control:focus {
+  outline: 2px solid #83b3d3;
+  border-radius: 4px;
+}
+
+.select-control:active {
+  opacity: 0.3;
+}
+
+.select-control:hover {
+  border: 2px solid #83b3d3;
 }
 
 .button-view-mode {
@@ -1266,9 +1289,9 @@ img {
 .pagination-container {
   position: relative;
   display: flex;
-  width: 1200px;
+  width: 1056px;
   color: #ffffff;
-  margin: 30px 71px 0 77px;
+  margin: 30px 72px 0 73px;
   padding: 0;
 }
 
@@ -1276,6 +1299,7 @@ img {
   display: flex;
   justify-content: flex-start;
   padding: 0;
+  padding-right: 68px;  /*Ещё для одной кнопки*/
   list-style-type: none;
   min-width: 370px;
   margin: 0;
@@ -1361,7 +1385,6 @@ img {
   background-repeat: no-repeat;
   background-position: right 20px top 50%;
   background-size: 12px 7px;
-  -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
 }
