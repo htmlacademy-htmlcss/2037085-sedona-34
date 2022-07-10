@@ -189,7 +189,7 @@ img {
 
 .navigation-link-user:hover{
   color: #615048;
-  border-bottom: 2px solid #756257;
+  border-bottom: 2px solid transparent;
   border-radius: 4px;
 }
 
@@ -301,7 +301,6 @@ img {
 
 .green-button:hover {
   background-color: #6C9E42;
-  color: rgba(255, 255, 255, 0.3);
 }
 
 .green-button:active {
@@ -344,7 +343,7 @@ img {
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
-  top: 72px;
+  top: 73px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -759,6 +758,7 @@ img {
 
 .catalog-filter-items {
   margin-bottom: 13px;
+  cursor: pointer;
 }
 
 .catalog-filter-title {
@@ -797,6 +797,7 @@ img {
 
 .infrastructure-input[type="checkbox"]:hover + .infrastructure-mark {
   background-color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
 }
 
 .infrastructure-input[type="checkbox"]:checked + .infrastructure-mark {
@@ -837,6 +838,7 @@ img {
 
 .type-home-input[type="radio"]:hover + .type-home-mark {
   background-color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
 }
 
 .type-home-input[type="radio"]:checked + .type-home-mark::after {

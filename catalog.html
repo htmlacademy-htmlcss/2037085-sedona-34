@@ -20,10 +20,10 @@
               <a class="navigation-link underlined-links" href="index.html">Главная</a>
             </li>
             <li>
-              <a class="navigation-link underlined-links" href="about-sedona">О Седоне</a>
+              <a class="navigation-link underlined-links" href="#">О Седоне</a>
             </li>
             <li>
-              <a class="navigation-link underlined-links" href="catalog.html">Гостиницы</a>
+              <a class="navigation-link underlined-links" href="#">Гостиницы</a>
             </li>
           </ul>
 
@@ -313,7 +313,10 @@
               <p class="text-3xl null-margins mailing">Подпишитесь на рассылку</p>
               <p class="text-xl null-margins useful-info">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
               <div class="form-alignment">
-                <input class="e-mail null-margins" type="text" name="Ваш e-mail" value="Ваш e-mail">
+                <label for="e-mail">
+                  <span class="visually-hidden">Введите e-mail.</span>
+                </label>
+                <input class="e-mail null-margins" type="text" placeholder="Ваш e-mail" value="Ваш e-mail">
                 <button class="button large-buttons subscribe" type="submit">Подписаться</button>
               </div>
             </form>
