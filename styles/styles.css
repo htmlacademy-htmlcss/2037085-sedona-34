@@ -352,7 +352,7 @@ img {
   background-repeat: no-repeat;
   background-size: contain;
   position: relative;
-  top: 72px;
+  top: 73px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -695,7 +695,8 @@ img {
   display: flex;
   flex-direction: column;
   padding: 0;
-  padding-top: 35px;
+  padding-top: 48px;
+  padding-right: 4px;
   margin-bottom: auto;
 }
 
@@ -704,7 +705,10 @@ img {
   min-width: 528px;
   height: 68px;
   text-align: left;
+  padding-top: 35px;
+  padding-right: 1px;
 }
+
 
 .breadcrumbs {
   display: flex;
@@ -712,8 +716,8 @@ img {
   padding: 0;
   margin: 0;
   list-style-type: none;
-  padding-left: 68px;
-  padding-top: 5px;
+  padding-left: 66px;
+  padding-top: 6px;
 }
 
 .breadcrumbs-link {
@@ -755,7 +759,7 @@ img {
   margin-left: 72px;
   margin-right: 72px;
   margin-top: 40px;
-  padding-left: 0;
+  padding-right: 4px;
   justify-content: space-between;
 }
 
@@ -769,7 +773,7 @@ img {
   padding: 0;
   padding-right: 3px;
   border: none;
-  margin-right: 70px;
+  margin-right: 64px;
 }
 
 .catalog-filter-list {
@@ -881,19 +885,21 @@ img {
 /*Ползунок*/
 .catalog-filter-group-price {
   width: 287px;
-  margin-right: 70px;
+  margin-right: 73px;
   margin-left: 106px;  /*Отступ всего 176. 1200-70-70-365-519. А у блоков левых марджины по 70*/
 }
 
 .range-scale {
   position: relative;
   top: 22px;
+  left: 2px;
   height: 4px;
   background-color: rgba(255, 255, 255, 0.3);
 }
 
 .range-bar {
   position: absolute;
+  bottom: -1px;
   height: 4px;
   background-color: #ffffff;
 }
@@ -922,16 +928,18 @@ img {
 
 .toggle-min {
   top: -8px;
-  left: 0;
+  left: 4px;
 }
 
 .toggle-max {
   top: -9px;
-  right: -11px;
+  right: -14px;
 }
 
 .range-wrapper-inputs {
   display: flex;
+  padding-left: 3px;
+  padding-bottom: 2px;
 }
 
 .range-input {
@@ -1064,15 +1072,16 @@ img {
 .delete {
   width: 160px;
   min-height: 23px;
-  font-size: 18px;
   font-weight: 400;
-  line-height: 23.29px;
-  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
   text-align: center;
   text-decoration: none;
   color: #ffffff;
   border: none;
   background: none;
+  padding-right: 2px;
+  padding-bottom: 3px;
 }
 
 .delete:focus {
@@ -1097,7 +1106,7 @@ img {
  width: 1057px;
  margin-left: 72px;
  margin-right: 71px;
- padding-top: 50px;
+ padding-top: 48px;
  align-items: center;
  justify-content: space-between;
 }
@@ -1126,6 +1135,8 @@ img {
   -webkit-appearance: none;
   appearance: none;
 }
+
+
 
 .select-control:focus {
   outline: 2px solid #83b3d3;
