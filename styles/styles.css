@@ -85,6 +85,7 @@ img {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
+  font-style: normal;
   text-transform: uppercase;
   text-align: center;
   color:#000000;
@@ -360,7 +361,7 @@ img {
 .advantages-text-capital {
   display: block;
   margin: 0 auto;
-  padding-top: 63px;
+  padding-top: 61px;
 }
 
 .advantages-text {
