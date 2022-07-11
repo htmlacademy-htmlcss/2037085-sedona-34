@@ -475,7 +475,7 @@ img {
 }
 
 .advantages-title {
-  padding-bottom: 30px;
+  padding-bottom: 28px;
   margin: 0 auto;
  }
 
@@ -514,12 +514,12 @@ img {
 
 .question {
   margin:0;
-  padding-top: 90px;
+  padding-top: 89px;
 }
 
 .date-trip {
   padding-top: 29px;
-  padding-bottom: 56px;
+  padding-bottom: 58px;
   margin: 0 auto;
   text-align: center;
 }
@@ -533,6 +533,7 @@ img {
   margin:0 auto;
   margin-left: 313px;
   position: absolute;
+  margin-bottom: 93px;
 }
 
 .useful-info {
@@ -543,7 +544,7 @@ img {
 }
 
 .newsletter-subscription-form {
-  padding-top: 152px;
+  padding-top: 153px;
 }
 
 .form-alignment {
@@ -555,18 +556,26 @@ img {
 
 
 .e-mail {
- width: 600px;
- border: none;
+ min-width: 600px;
  background: #F2F2F2;
  border-radius: 10px 0 0 10px;
  padding-left: 22px;
  min-height: 60px;
+ border: 3px transparent;
+ font-size: 18px;
+ font-weight: 400;
+ line-height: 26px;
+ text-align: left;
+ padding-right: 22px;
 }
 
 .subscribe {
-  width: 200px;
   flex-shrink: 0;
   border-radius: 0 10px 10px 0;
+  min-width: 200px;
+  border: 3px transparent;
+  padding-left: 35px;
+  padding-right: 12px;
 }
 
 .mailing {
