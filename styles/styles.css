@@ -1107,6 +1107,7 @@ img {
  margin-left: 72px;
  margin-right: 71px;
  padding-top: 48px;
+ margin-bottom: 56px;
  align-items: center;
  justify-content: space-between;
 }
@@ -1255,12 +1256,9 @@ img {
   width: 1200px;
   grid-template-columns: repeat(3, 340px);
   column-gap: 18px;
-  padding-left: 73px;
-  padding-right: 73px;
-  padding-top: 56px;
-  padding-bottom: 66px;
+  padding: 0 73px;
   margin:0 auto;
-  box-sizing: border-box;
+  padding-bottom: 66px;
 }
 
 .hotel-card {    /*КарточкА гостиницы*/
