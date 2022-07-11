@@ -343,6 +343,7 @@ img {
   background-repeat: no-repeat;
   width:1200px;
   height: 487px;
+  background-color: #82b3d3;
   }
 
 .index-background::after {
@@ -505,7 +506,8 @@ img {
   background-size: 100% auto;
   background-repeat: no-repeat;
   width:1200px;
-  height: 411px;
+  min-height: 411px;
+  background-color: #82b3d3;
   }
 
 .search-hotel {     /*Cекция с поиском гостиницы*/
@@ -696,15 +698,14 @@ img {
   display: flex;
   flex-direction: column;
   padding: 0;
-  padding-top: 48px;
   padding-right: 4px;
   margin-bottom: auto;
 }
 
 .page-name {
   padding-left: 71px;
+  padding-bottom: 4px;
   min-width: 528px;
-  height: 68px;
   text-align: left;
   padding-top: 35px;
   padding-right: 1px;
@@ -892,8 +893,8 @@ img {
 
 .range-scale {
   position: relative;
-  top: 22px;
-  left: 2px;
+  top: 27px;
+  left: 1px;
   height: 4px;
   background-color: rgba(255, 255, 255, 0.3);
 }
@@ -940,13 +941,12 @@ img {
 .range-wrapper-inputs {
   display: flex;
   padding-left: 3px;
-  padding-bottom: 2px;
 }
 
 .range-input {
-  padding-top: 14px;
+  padding-top: 10px;
   padding-bottom: 11px;
-  padding-left: 19px;
+  padding-left: 17px;
   padding-right: 19px;
   background-color: transparent;
   border: 2px solid #ffffff;
@@ -1011,11 +1011,11 @@ img {
 }
 
 .catalog-filter-label-max::after {
-  content: "от";
+  content: "до";
 }
 
 .catalog-filter-label-min::after {
-  content: "до";
+  content: "от";
 }
 
 .range-input::-webkit-outer-spin-button,
