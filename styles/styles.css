@@ -377,8 +377,6 @@ img {
   display: flex;
   width: 1200px;
   justify-content: space-between;
-  margin: 0;
-  padding: 0;
   flex-wrap: wrap;
   list-style-type: none;
   text-align: center;
@@ -398,6 +396,7 @@ img {
   height: 384px;
   margin: 0;
   padding: 0;
+  object-position: center;
 }
 
 .caption {           /*Описание пронумерованных блоков. "Кубики с текстом"*/
