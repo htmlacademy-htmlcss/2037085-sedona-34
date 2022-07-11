@@ -380,6 +380,9 @@ img {
   flex-wrap: wrap;
   list-style-type: none;
   text-align: center;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-end: 0;
 }
 
 .advantages-sublist {    /*Строка с непронумерованными блоками*/
@@ -428,6 +431,8 @@ img {
   width: 1200px;
   padding: 0;
   margin: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
   }
 
 .housing {         /*Блок непронумерованный*/
@@ -476,6 +481,7 @@ img {
 
  .advantages-subtitle {
   padding-bottom: 30px;
+  padding-top: 1px;
   margin: 0 auto;
  }
 
@@ -508,7 +514,7 @@ img {
 
 .question {
   margin:0;
-  padding-top: 91px;
+  padding-top: 90px;
 }
 
 .date-trip {
@@ -537,8 +543,7 @@ img {
 }
 
 .newsletter-subscription-form {
-  padding-top: 93px;
-  padding-bottom: 94px;
+  padding-top: 152px;
 }
 
 .form-alignment {
@@ -593,6 +598,8 @@ img {
   align-items: center;
   width: 47px;
   height: 40px;
+  padding-top: 10px;
+  padding-left: 2px;
 }
 
 .footer-social-link svg{
@@ -632,7 +639,6 @@ img {
 .footer-contacts-phone {
   font-size: 40px;
   line-height: 40px;
-  width: 331px;
   height: 40px;
   padding-top: 45px;
   padding-bottom: 35px;
