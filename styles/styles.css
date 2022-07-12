@@ -1524,6 +1524,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-content: center;
+  padding-bottom: 1px;
 }
 
 .search-hotels-form-field {
@@ -1578,6 +1579,7 @@ img {
 
 .field-group {
   display: flex;
+  padding-bottom: 1px;
 }
 
 .field-group .modal-label {
@@ -1594,7 +1596,6 @@ img {
 .field-group-people {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 40px;
 }
 
 .modal-label-people {
@@ -1700,7 +1701,7 @@ img {
 .footnote-arrival-date {
   margin-top: 0;
   padding-top: 9px;
-  padding-bottom: 9px;
+  padding-bottom: 15px;
   padding-left: 157px;
   line-height: 40px;
   font-size: 16px;
