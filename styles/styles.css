@@ -1782,3 +1782,7 @@ img {
 .tooltip-toggle:focus + .tooltip-text {
   display: block;
 }
+
+.modal-container-close {
+  display: none;
+}
