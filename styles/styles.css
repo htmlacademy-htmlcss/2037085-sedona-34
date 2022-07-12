@@ -1447,6 +1447,11 @@ img {
   padding-left: 20px;
 }
 
+.newsletter-subscription-form-catalog{
+  padding-top: 17px;
+  padding-bottom: 93px;
+}
+
 /*Модальное окно и тултип*/
 .modal-container {
   position: fixed;
