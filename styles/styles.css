@@ -1254,8 +1254,6 @@ img {
   background-repeat: no-repeat;
 }
 
-
-
 .catalog-cards-hotels {       /*Контейнер с карточкамИ гостиниц*/
   display: grid;
   width: 1200px;
@@ -1319,7 +1317,7 @@ img {
   background-image: url("../images/decorative-elements/star.svg");
   width: 18px;
   height: 17px;
-  padding-right: 6px;
+  padding-right: 24px;
   background-repeat: space repeat;
  }
 
@@ -1516,13 +1514,15 @@ img {
 .modal-title {
   max-width: 500px;
   margin-bottom: 62px;
-  padding-bottom: 63px;
+  padding-top: 1px;
   font-family: inherit;
   text-align: left;
+
 }
 
-.search-hotels-form .field-group {     /*МОДАЛ ФОРМС*/
+.search-hotels-form .field-group {
   margin: 0;
+  margin-top: 11px;
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -1783,6 +1783,6 @@ img {
   display: block;
 }
 
-.modal-container-close {
+/*.modal-container-close {
   display: none;
 }
