@@ -1519,12 +1519,15 @@ img {
   text-align: left;
 }
 
+.search-hotels-form{
+  row-gap: 40px;
+}
+
 .search-hotels-form .field-group {
   margin: 0;
   display: flex;
   justify-content: space-between;
   align-content: center;
-  padding-bottom: 1px;
 }
 
 .search-hotels-form-field {
