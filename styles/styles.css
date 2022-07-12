@@ -1550,6 +1550,7 @@ img {
  flex-direction: row;
  justify-content: space-between;
  align-content:center;
+ flex-basis: 231px;
 }
 
 .number-adult{
@@ -1694,6 +1695,12 @@ img {
 
 .modal-label-child {
   box-sizing: border-box;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content:center;
+
 }
 
 .footnote-departure-date,
@@ -1708,9 +1715,6 @@ img {
   color: #ff5757;
 }
 
-.modal-label-child {
-  position: relative;
-}
 
 .tooltip {
   position: absolute;
