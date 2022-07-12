@@ -1519,10 +1519,6 @@ img {
   text-align: left;
 }
 
-.search-hotels-form{
-  row-gap: 40px;
-}
-
 .search-hotels-form .field-group {
   margin: 0;
   display: flex;
@@ -1552,13 +1548,15 @@ img {
 .number-children{
  display: flex;
  flex-direction: row;
- margin-right: auto;
+ justify-content: space-between;
+ align-content:center;
 }
 
 .number-adult{
   display: flex;
   flex-direction: row;
-  margin-right: auto;
+  justify-content: space-between;
+  align-content:center;
 }
 
 
@@ -1582,7 +1580,6 @@ img {
 
 .field-group {
   display: flex;
-  padding-bottom: 1px;
 }
 
 .field-group .modal-label {
@@ -1591,14 +1588,14 @@ img {
   font-size: 20px;
   line-height: 20px;
   text-align: left;
+  flex-basis: 156px;
   padding-top: 14px;
-  padding-bottom: 12px;
-  flex-basis: 120px;
 }
 
 .field-group-people {
   display: flex;
   justify-content: space-between;
+  align-content: center;
 }
 
 .modal-label-people {
@@ -1697,14 +1694,11 @@ img {
 
 .modal-label-child {
   box-sizing: border-box;
-  padding: 12px 43px 12px 0;
 }
 
 .footnote-departure-date,
 .footnote-arrival-date {
   margin-top: 0;
-  padding-top: 9px;
-  padding-bottom: 15px;
   padding-left: 157px;
   line-height: 40px;
   font-size: 16px;
