@@ -1548,9 +1548,9 @@ img {
 .number-children{
  display: flex;
  flex-direction: row;
- justify-content: space-between;
  align-content:center;
  flex-basis: 231px;
+ margin-left: 21px;
 }
 
 .number-adult{
@@ -1558,6 +1558,7 @@ img {
   flex-direction: row;
   justify-content: space-between;
   align-content:center;
+  margin-left: 66px;
 }
 
 
@@ -1600,8 +1601,15 @@ img {
 }
 
 .modal-label-people {
-  width: 155px;
+  width: auto;
 }
+
+.modal-label-child {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+}
+
 
 
 .button-found {
@@ -1618,6 +1626,7 @@ img {
   background-color: #83b3d3;
   font-family: inherit;
   cursor: pointer;
+  margin-top: 40px;
 }
 
 .button-found:focus {
@@ -1693,10 +1702,6 @@ img {
   outline: none;
 }
 
-.modal-label-child {
-  box-sizing: border-box;
-  position: relative;
-}
 
 .footnote-departure-date,
 .footnote-arrival-date {
@@ -1712,8 +1717,8 @@ img {
 
 
 .tooltip {
-  position: absolute;
   margin-left: 2px;
+  margin-top: 14px;
   width: 25px;
   height: 25px;
 }
