@@ -1589,7 +1589,7 @@ img {
   font-size: 20px;
   line-height: 20px;
   text-align: left;
-  flex-basis: 156px;
+  flex-basis: 153px;
   padding-top: 14px;
 }
 
@@ -1696,11 +1696,6 @@ img {
 .modal-label-child {
   box-sizing: border-box;
   position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-content:center;
-
 }
 
 .footnote-departure-date,
