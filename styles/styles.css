@@ -39,7 +39,7 @@ body {
   flex-direction: column;
   min-height: 100%;
   font-family: "PT Sans", sans-serif;
-  font-weight: 400;  /*Почти самый маленький текст (там ещё 16px есть). Будет часто встречаться в форме и попапе, внутри карточек гостиниц*/
+  font-weight: 400;
   font-size: 18px;
   line-height: 21px;
   color:#000000;
@@ -69,11 +69,10 @@ img {
   width: 1200px;
 }
 
-.null-margins {  /*Класс для обнуления отступов*/
+.null-margins {
   margin: 0;
   padding: 0;
  }
-
 
 /*Стили для повторяющегося текста*/
 .text-6xl {
@@ -91,7 +90,7 @@ img {
   color:#000000;
 }
 
-.text-2xl { /*Используется в названиях преимуществ*/
+.text-2xl {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
@@ -100,19 +99,19 @@ img {
   color:#000000;
 }
 
-.text-xl { /*Призывающий текствнутри формы и блоков*/ /*calling-text*/
+.text-xl {
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
 }
 
-.text-base {    /*Рейтинг отелей*/
+.text-base {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
 }
 
-.text-name-hotels { /*Используется в названиях гостиниц*/
+.text-name-hotels {
   text-align: left;
   font-style: normal;
   text-transform: none;
@@ -135,7 +134,7 @@ img {
   margin-bottom: -1px;
 }
 
-.logo-sedona {   /*Логотип в навигации*/
+.logo-sedona {
   position: absolute;
   width: 139px;
   height: 70px;
@@ -176,7 +175,7 @@ img {
   color: #756257;
   border-bottom: 2px solid #756257;
   background: transparent;
-  padding-bottom: 18px; /*Иначе, при наведении картинка внизу прыгала*/
+  padding-bottom: 18px;
 }
 
 .underlined-links:active {
@@ -251,7 +250,7 @@ img {
   font-weight: 700;
   text-align: center;
   color: #ffffff;
-  background-color: #82B3D3; /*Чаще всего встречается*/
+  background-color: #82B3D3;
   text-decoration: none;
   border: none;
   text-transform: uppercase;
@@ -386,7 +385,7 @@ img {
   margin-inline-end: 0;
 }
 
-.advantages-sublist {    /*Строка с непронумерованными блоками*/
+.advantages-sublist {
   display: flex;
   width: 1200px;
   justify-content: space-between;
@@ -403,7 +402,7 @@ img {
   object-position: center;
 }
 
-.caption {           /*Описание пронумерованных блоков. "Кубики с текстом"*/
+.caption {
  width: 400px;
  padding: 92px 85px 92px 85px;
  box-sizing: border-box;
@@ -420,14 +419,14 @@ img {
   box-sizing: border-box;
 }
 
-.real-town {      /*Широкий блок, включающий в себя описание и картинку*/
+.real-town {
   display: flex;
   width: 1200px;
   padding: 0;
   margin: 0;
   }
 
-.devils-bridge {       /*Широкий блок, включающий в себя описание и картинку*/
+.devils-bridge {
   display: flex;
   width: 1200px;
   padding: 0;
@@ -436,7 +435,7 @@ img {
   margin-block-end: 0;
   }
 
-.housing {         /*Блок непронумерованный*/
+.housing {
   background-color:#e6f0fa;
   margin: 0;
   background-image: url("../images/decorative-elements/housing.svg");
@@ -444,7 +443,7 @@ img {
   background-position: top 80px right 161px;
   }
 
-.meal {               /*Блок непронумерованный*/
+.meal {
   background-color: #ffffff;
   margin: 0;
   background-image: url("../images/decorative-elements/food.svg");
@@ -452,7 +451,7 @@ img {
   background-position: top 80px right 161px;
 }
 
-.souvenirs {         /*Блок непронумерованный*/
+.souvenirs {
   background-color:#e6f0fa;
   margin: 0;
   background-image: url("../images/decorative-elements/souvenirs.svg");
@@ -460,7 +459,7 @@ img {
   background-position: top 80px right 161px;
 }
 
-.small-area {      /*Продолжение пронумерованного списка преимуществ*/
+.small-area {
   background-color: #e6f0fa;
   padding: 103px 85px 102px 85px;
   }
@@ -510,7 +509,7 @@ img {
   background-color: #82b3d3;
   }
 
-.search-hotel {     /*Cекция с поиском гостиницы*/
+.search-hotel {
  margin: 0 auto;
 }
 
@@ -568,7 +567,7 @@ img {
  font-size: 18px;
  line-height: 26px;
  text-align: left;
- color: #666666;  /*Чёрный с прозрачностью 0,6*/
+ color: #666666;
  padding: 17px 21px 17px 19px;
  outline: none;
 }
@@ -890,7 +889,7 @@ img {
 .catalog-filter-group-price {
   width: 287px;
   margin-right: 73px;
-  margin-left: 106px;  /*Отступ всего 176. 1200-70-70-365-519. А у блоков левых марджины по 70*/
+  margin-left: 106px;
 }
 
 .range-scale {
@@ -1347,7 +1346,7 @@ img {
   display: flex;
   justify-content: flex-start;
   padding: 0;
-  padding-right: 68px;  /*Ещё для одной кнопки*/
+  padding-right: 68px;
   list-style-type: none;
   min-width: 370px;
   margin: 0;
@@ -1778,6 +1777,6 @@ img {
   display: block;
 }
 
-/*.modal-container-close {
+.modal-container-close {
   display: none;
 }
