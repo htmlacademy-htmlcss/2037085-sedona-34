@@ -903,7 +903,9 @@ img {
 .range-bar {
   position: absolute;
   bottom: -1px;
+  width:227px;
   height: 4px;
+  right:60px;
   background-color: #ffffff;
 }
 
