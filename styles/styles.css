@@ -149,14 +149,8 @@ img {
   margin: 0;
   padding: 0;
   margin-left: 237px;
-  max-width: 390px;
+  max-width: 420px;
   list-style-type: none;
-}
-
-.navigation-user {
-  margin-left: auto;
-  margin-right: 70px;
-  align-items: center;
 }
 
 .navigation-link {
@@ -169,6 +163,12 @@ img {
   color: #000000;
   text-decoration: none;
   position: relative;
+}
+
+.navigation-user {
+  margin-left: auto;
+  margin-right: 70px;
+  align-items: center;
 }
 
 .underlined-links:hover {
@@ -242,9 +242,8 @@ img {
 .desire-button {
   margin-top: 14px;
   margin-bottom: 14px;
-  max-width: 160px;
+  min-width: 160px;
   margin-left: 21px;
-  margin-right: 34px;
   font-size: 16px;
   line-height: 20px;
   padding-top: 9px;
